@@ -1,0 +1,20 @@
+1. Qual a função do protocolo HTTP?
+R: Protocolo que permite a tranferência de arquivos entre o servidor Web e o navegador
+HTTP é um protocolo (protocol) que permite a obtenção de recursos, como documentos HTML
+
+2. Explique o funcionamento do request e response no protcolo HTTP.
+R: O navegador envia um request para o servidor WEB, o servidor interpreta o request e envia
+um response para o navegador. Ambos são escritos em textos simples.
+
+3. Descreva 2 diferenças do método GET para o método POST.
+R: GET recebe um recurso e o POST envia um pedido de recurso com informações
+Get recebe coisa e post posta coisa
+
+4. Qual a função dos códigos de status retornados pelo servidor HTTP.
+R: A função é saber se o pedido foi aceito ou não. 
+
+3. O protocolo HTTP foi projetado, inicialmente, para permitir a transferência de textos. Nesses textos, como fazer para indicar o que é título, subtítulo, fórmula, parágrafo e etc? Pesquise 
+por HTML, XHTML e XML e escreva qual é a relação destas três linguagens com o problema citado
+no início da questão.
+
+
