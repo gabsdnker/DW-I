@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<html lang= "pt-br">
+<html lang= "pt-br"> //linguagem do site
 	<head>
 		<meta charset="utf-8">
-		<title>Formulário- tag input</title>
+		<title>Formulário- tag input</title> //titulo do site
 	</head>
 	<body>
 		<form>
-			
-			<label>Nome:</label><input type="text">
+			<label>Nome:</label><input type="text"> //digitar nome
 			<br>
 			</br>
 
-			<label>Senha:</label><input type="password">
+			<label>Senha:</label><input type="password"> //digitar senha
+			<br>	// quebra de linha
+			</br>
+
+			<label>Qual sua faixa de idade em anos?</label><br>
+			<input type="radio" name="idade"><label>0 a 15</label><br>
+			<input type="radio" name="idade"><label>16 a 50</label><br>
+			<input type="radio" name="idade"><label>51 ou mais</label><br>
+			</br>
+
+			<label> Disciplinas legais </label ><br>		
+			<input type = "checkbox" name = "disciplinas"><label>Web</label >
+			<input type = "checkbox" name = "disciplinas" ><label>Fisica</label>
+			<input type = "checkbox" name = "disciplinas"><label>Artes</label><br>
+			</br>
+
+			<label>Estado Civil:</label>
+			<select>
+				<option value="solteiro">Solteiro(a)</option>	//para selecionar opção
+				<option value="casado">Casado(a)</option>
+				<option value="divorciado" selected>Divorcado(a)</option>
+			</select>
 		</form>
 	</body>
 </html>
