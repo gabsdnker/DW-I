@@ -1,0 +1,83 @@
+1-a)<textarea> representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno. 
+exemplo: 
+<label for="story">Tell us your story:</label>
+
+<textarea id="story" name="story"
+          rows="5" cols="33">
+It was a dark and stormy night...
+</textarea>
+
+ b)<fieldset> é usado para agrupar elementos, assim como labels (<label>), dentro de um formulário web.
+exemplo:
+<form action="test.php" method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <input type="radio" id="radio"> <label for="radio">Click me</label>
+  </fieldset>
+</form>
+
+c)(<datalist>) contém um conjunto de elementos <option> que representam as opções possíveis para o valor de outros controles.
+exemplo:
+<input list="browsers" />
+<datalist id="browsers">
+  <option value="Chrome">
+  <option value="Firefox">
+  <option value="Internet Explorer">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+d)<input> elements of type number are used to let the user enter a number. They include built-in validation to reject non-numerical entries.
+
+The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by tapping with a fingertip.
+exemplo:
+<label for="tentacles">Number of tentacles (10-100):</label>
+
+<input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+       
+e) <input> elements of type color provide a user interface element that lets a user specify a color, either by using a visual color picker interface or by entering the color into a text field in #rrggbb hexadecimal format.
+
+Only simple colors (without alpha channel) are allowed though CSS colors has more formats, e.g. color names, functional notations and a hexadecimal format with an alpha channel.
+
+The element's presentation may vary substantially from one browser and/or platform to another—it might be a simple textual input that automatically validates to ensure that the color information is entered in the proper format, or a platform-standard color picker, or some kind of custom color picker window.
+exemplo:
+<p>Choose your monster's colors:</p>
+
+<div>
+    <input type="color" id="head" name="head"
+           value="#e66465">
+    <label for="head">Head</label>
+</div>
+
+<div>
+    <input type="color" id="body" name="body"
+            value="#f6b73c">
+    <label for="body">Body</label>
+</div>
+
+f)atributo placeholder: 
+<input type="text" name="nome" id="nome" value="Nome:" Placeholder="João Manuel">
+<input type="text" name="email" id="email" value="E-Mail:" Placeholder="exemplo@exemplo.com.br"> 
+
+g)atributo required:
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>O atributo required</title>
+    </head>
+    <body>
+        <form>
+            Nome: <input name="nome" id="nome" type="text" required /></br></br>
+            E-mail: <input name="email" id="email" type="email" required /></br></br>
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+</html>
+
+h)atributo autofocus:
+<input maxlength="255" name="busca" value="" autofocus>
+<input type="submit" value="Pesquisar">
+
+2-https://developer.mozilla.org/pt-BR/docs/Learn/Forms/Your_first_form
