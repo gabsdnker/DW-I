@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 3</title>
+        <style type="text/css">
+            body,html{
+                background-color: lightblue;
+                background: rgb(238,174,202);
+                background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            }
+            #legenda{
+                color: black;
+                font-family: sans-serif;
+                text-align: center;    
+            }    
+            #usuario{
+                width: 98vw;
+                height: 10vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            #field{
+                width: 94vw;
+                height: 10vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            #senha{
+                width: 94vw;
+                height: 10vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            #genero{
+                width: 94vw;
+                height: 10vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            form{
+                width: 94vw;
+                height: 10vh;
+                display: block;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            #botao{
+                position: absolute;
+                left: 45%;
+                right: 50%;
+
+                            }
+        </style>
+    </head>
+    <body>
+         <form>
+        <div id="legenda">
+            <legend><h1>Formulário</h1></legend>
+        </div>
+        <div id="usuario">
+            <label>Nome do usuário:</label>
+            <input type="text" id="text" name="text" placeholder="Digite seu usuário*" required>
+            <br></br>
+        </div>
+        <div id="field">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail*" required>
+            <br></br>
+        </div>   
+
+        <div id="senha">
+            <label>Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha*" required>
+     <br></br>
+        </div>
+
+        <div id="genero">
+            <label>Genero:</label>
+            <br></br>
+            <input type="radio" name="sexo" value= "Feminino"><label>Feminino</label>
+            <input type="radio" name="sexo" value="Masculino"><label>Masculino</label>
+            <br></br>
+         </div>
+          
+            <input id="botao" type="submit" value="Enviar Formulário">
+        </form>
+    </body>
+</html>
