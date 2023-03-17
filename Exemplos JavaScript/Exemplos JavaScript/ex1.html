@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script>
+let candidato = {
+	nome: "Fulano",
+	partido: "PIFC",
+	quantPropostas: 10,
+	fazPropaganda: function() {
+		alert("Vote certo, vote em " + this.nome + "!");
+	}
+};
+
+candidato.fazPropaganda();
+	</script>
+</head>
+<body>
+	<h1 id="titulo">Seja bem vindo à página do </h1>
+	<script>
+document.querySelector('#titulo').textContent += candidato.nome + "!";
+	</script>
+	<p id="apresentacao"></p>
+	<p id="objeto"></p>
+	<script>
+document.querySelector('#apresentacao').textContent = "O candidato " + candidato.nome + " está filiado ao " + candidato.partido + " e tem " + candidato.quantPropostas + " propostas!";
+
+document.querySelector('#objeto').textContent = "Tipo do Objeto: " + typeof candidato;
+	</script>
+</body>
+</html>
