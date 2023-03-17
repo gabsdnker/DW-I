@@ -1,0 +1,61 @@
+<!--1-Crie uma página que contenha 5 divs com largura e altura de 30px e que fiquem posicionadas
+no canto superior esquerdo
+no canto superior direito
+no canto inferior esquerdo
+no canto inferior direito
+no centro da página-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 1</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+		}
+		div{
+			height: 30px;
+			width: 30px;			
+		}
+		#primeira{
+			background-color: pink;
+			float: left;
+		}
+		#segunda{
+			background-color: lightseagreen;
+			float: right;
+		}
+		#terceira{
+			background-color: violet;
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+		}
+		#quarta{
+			background-color: lightblue;
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+		}
+		#quinta{
+			background-color: black;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -25px 0 0 -25px;
+
+
+		}
+
+	</style>
+</head>
+<body>
+	<div id="primeira"></div>
+	<div id="segunda"></div>
+	<div id="terceira"></div>
+	<div id="quarta"></div>
+	<div id="quinta"></div>
+</body>
+</html>

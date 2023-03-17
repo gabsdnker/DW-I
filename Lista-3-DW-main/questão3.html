@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 3</title>
+	<style type="text/css">
+		h1{
+			font-family: Muli;
+			font-size: 200px;
+			text-align: center;
+			margin-top: 70px;
+		}
+		div{
+			background-color: pink;
+			height: 400px;
+			width: 400px;
+			position: absolute;
+			top: 50%;
+			border-radius: 360px;
+			margin: -200px 0 0 -200px;
+			animation-name: girar;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes girar{
+			
+		 from{
+		    margin-left: 100%;
+		    width: 300%
+		  }
+
+		  to {
+		    margin-left: 0%;
+		    width: 100%;
+		  }
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Hello World</h1>
+	</div>
+</body>
+</html>
