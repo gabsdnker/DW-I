@@ -1,0 +1,29 @@
+<Site: Poemas> 
+<Principais Poetas Brasileiros:> Carlos Drummond de Andrade, Cora Coralina, Vinicius de Moraes, Adélia Prado, João Cabral de Melo Neto, Cecília Meireles,
+Manoel de Barros, Manuel Bandeira, Hilda Hilst, Machado de Assis.
+
+<Bibligrafia básica> OK
+
+<Principais poemas> OK
+
+<Fotos de cada artista> OK
+
+<Logotipo> OK
+
+Nome do site: Poemas e Poesias
+
+Sites para pesquisas: https://www.culturagenial.com/poetas-brasileiros-fundamentais/
+https://poesiaspoemaseversos.com.br/
+
+Cores do site: #ffe5df, preto e branco
+
+Requisitos
+- Página hospedada
+- Conter HTML, CSS e JavaScript
+- Passar sem erros e avisos pelos validadores
+- Utilizar pré-processadores e enviar os códigos
+- Considerar usabilidade, acessibilidade, responsividade
+- 3 telas no mínimo
+- Funcionar corretamente nos navegadores chrome e firefox
+- Utilizar no mínimo dois recursos específicos: Slideshow, animações, uso de frameworks e/ou bibliotecas não vistas em aula
+- Grupo de até 3

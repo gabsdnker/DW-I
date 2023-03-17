@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+body{
+	font-family: "Montserrat",Sans-serif;
+	max-width: 100vw;
+}
+header{
+	position: relative;
+	width: 100%;
+	background-color: white;
+}
+.logotipo{
+	max-height: 120px;
+}
+.header-box1{
+	width: 100%;
+	text-align: center;
+	margin: 10px 0 15px 0;
+}
+.btn-contraste{
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+.main_footer_copy .m-b-footer   { margin-bottom:0em; }
+.main_footer_copy { 
+	display: relative;
+	background-color:#ec6c5c; 
+	width: 100%;
+	float:left; 
+	text-align:center; 
+	padding:1.5em; 
+}
+.main_footer_copy p { 
+	font-family:'open_sanslight'; 
+	font-size:1em;
+	color:#e1e0e0; 
+	height:90%; 
+}
+.main_footer_copy .by   { 
+	font-size:0.96em;
+	 }
+.main_footer_copy .by a  { 
+	color:#fff; 
+	text-decoration:none;
+ }
+.main_footer_copy .by a:hover { 
+	text-decoration:underline;
+	 }
+.main_footer_copy .by i { 
+	font-size:0.96em; 
+	margin-right:3px; 
+	color:#e82626; }
+
+.header-acess{
+	position: absolute;
+	left: 5px;
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.search-box{
+	float: right;
+	padding: 10px;
+
+	border-radius: 50px;
+	border: 1px solid gray;
+
+	display: flex;
+	justify-content: space-between;
+}
+.lupa{
+	height: 20px;
+	width: 20px;
+}
+.search-text{
+	background: none;
+	border: 0;
+	outline: 0;
+	font-size: 14px;
+	width: 0;
+	transition: 0.4s;
+}
+.search-btn{
+	height: 20px;
+	cursor: pointer;
+}
+.search-box:hover > .search-text{
+	width: 200px;
+	padding-left: 10px;
+}
+::-webkit-input-placeholder{
+	font-size: 14px;
+	color: black;
+}
+.barra-pesquisa-hidden{
+	width: 100%;
+}
+.bloco-search-hidden{
+	width: 100%;
+	height: 50px;
+	display: none;
+}
+.header-search{
+	position: absolute;
+	top: 10px;
+	margin-right: 20px;
+	right: 0;
+}
+@media (max-width: 750px){
+	.header-search{
+		top:10px;
+		width: 100%;
+		margin: 0;
+
+		display: flex;
+		justify-content: center;
+	}
+	.alto-contraste{
+		display: none;
+	}
+	.btn-contraste{
+		margin-left: 15px;
+	}
+	.bloco-search-hidden{
+		display: block;
+	}
+	.search-box{
+		width: 90%;
+		margin: 0;
+	}
+	.logotipo{
+		max-height: 100px;
+	}
+	.search-box > .search-text{
+		width: 200px;
+		padding-left: 10px;
+	}
+}
+.voltar-ao-topo {
+	position: fixed;
+	bottom: 110px;
+	right: 50px;
+	cursor: pointer;
+	display: none;
+}

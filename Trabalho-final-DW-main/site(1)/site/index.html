@@ -1,0 +1,135 @@
+<!--NOME: GABRIELLI DANKER E MONIQUE ELLEN DOS SANTOS
+MATÉRIA: DESENVOLVIMENTO WEB I
+CURSO: BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO 
+TURMA: 2022.2-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Poetas brasileiros</title>
+	<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nav.css"/>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="manifest" href="img/icon/manifest.json">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="js/jquery-3.6.1.js"></script>
+
+	<style>
+		.mySlides{
+			display: none;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		
+		<div class="bloco-search-hidden"></div>
+
+		<div class="header-box1">
+
+			<div class="header-acess">
+
+				<img class="btn-contraste" src="img/contraste.png" alt="Ícone de alto contraste">
+			</div>
+
+			<a href="index.html"><img class="logotipo" src="img/logotipo.png" alt="Logotipo da página"></a>
+
+			<div class="header-search">
+
+				<div class="search-box">
+					<input type="text" class="search-text" placeholder="Pesquisar...">
+					<a class="search-btn" href="#">
+						<img class="lupa" src="img/lupa.png" alt="Lupa branca da barra de pesquisa">
+					</a>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="header-box2">
+			<nav> 
+				<ul class="main-menu">
+
+					<li class="item-menu first"> <a  href="index.html"> INÍCIO  </a> </li>
+
+					<li class="item-menu">
+						<span > AUTORES </span>
+						
+						<div class="espaco"> </div>
+
+						<ul class="sub-menu">
+							<li><a href="adeliaPage.html"> Adélia Prado </a></li>
+							<li><a href="carlosPage.html"> Carlos Drummond de Andrade </a></li>
+							<li><a href="ceciliaPage.html"> Cecília Meireles</a></li>
+							<li><a href="coraPage.html"> Cora Coralina </a></li>
+							<li><a href="hildaPage.html"> Hilda Hilst </a></li>
+							<li><a href="joaoPage.html"> João Cabral de Melo Neto </a></li>
+							<li><a href="machadoPage.html"> Machado de Assis </a></li>
+							<li><a href="manoelPage.html"> Manoel de Barros </a></li>
+							<li><a href="manuelPage.html"> Manuel Bandeira </a></li>
+							<li><a href="viniciusPage.html"> Vinicius de Moraes </a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<div class="slide-show">
+		<img class="mySlides" src="img/Adélia-Prado.jpg" width="100%"/>
+		<img class="mySlides" src="img/Carlos-Drummond.jpg" width="100%"/>
+		<img class="mySlides" src="img/Cecília-Meireles.jpg" width="100%"/>
+		<img class="mySlides" src="img/Cora-Coralina.jpg" width="100%"/>
+		<img class="mySlides" src="img/Hilda-Hilst.jpg" width="100%"/>
+		<img class="mySlides" src="img/João-Cabral.jpg" width="100%"/>
+		<img class="mySlides" src="img/Machado de Assis.jpg" width="100%"/>
+		<img class="mySlides" src="img/Manoel de Barros.jpg" width="100%"/>
+		<img class="mySlides" src="img/Manuel Bandeira.jpg" width="100%"/>
+		<img class="mySlides" src="img/Vinicius de Moraes.jpg" width="100%"/>
+
+		<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-black w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+	 <footer>
+
+        <div class="main_footer_copy">
+
+            <p class="m-b-footer"> Poemas Brasileiros - 2022, Copyright ©.</p> 
+            <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: <a href="#" title="Bacharelado em Ciência da Computação">Gabrielli Danker e Monique Ellen dos Santos</a></p>
+
+        </div>
+
+	</footer>
+
+	<div class="voltar-ao-topo">
+		<img style="height: 50px;" src="img/btnSubir.png" alt="Botão de voltar ao topo da página">
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/page.js"></script>
+	<script src="js/slide.js"></script>
+</body>
+</html>

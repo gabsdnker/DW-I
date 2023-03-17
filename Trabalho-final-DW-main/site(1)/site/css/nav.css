@@ -1,0 +1,90 @@
+.main-menu a, .main-menu span{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12.5px;
+	color: black;
+
+	text-decoration: none;
+}
+
+.main-menu span{
+	cursor: pointer;
+}
+
+.main-menu{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	list-style: none;
+	height: 20px;
+}
+
+.main-menu li{
+	margin: 0 10px;
+}
+
+.first{
+	border-bottom: 2px solid rgb(233, 146, 146);
+}
+
+.sub-menu{
+	overflow: hidden;
+	transition: max-height 0.7s;
+	max-height: 0;
+	height: 350px;
+
+	z-index: 999;
+	
+	list-style: none;
+
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-color: white;
+
+	width: 220px;
+	position: absolute;
+
+	left: 57%;
+	transform: translateX(-50%);
+}
+
+.item-menu:hover ul{
+	max-height: 600px;
+	transition: max-height .8s;
+}
+
+.espaco{
+	height:15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	
+}
+
+.item-menu:hover{
+	border-bottom: 2px solid rgb(233, 146, 146);
+
+}
+
+.sub-menu li a{
+	font-size: 13px;
+	color: rgb(86, 79, 79);
+	padding-left: 10px;
+	padding-top: 10px;
+
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.sub-menu li{
+	height: 35px;
+	width: 100%;
+}
+
+.sub-menu:last-child{
+	margin-bottom: 15px;
+}
+.sub-menu li a:hover{
+	font-weight: 700;
+	text-decoration: none;
+}

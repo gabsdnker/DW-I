@@ -1,0 +1,38 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+footer{
+	background-color: #ffe5df;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	height: 30vh;
+}
+p{
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size: 80%;
+	margin: 0;
+}
+#nome{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 45%;
+	align-items: center;
+
+}
+small{
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+	height: 10%;
+}
+#container{
+	display: block;
+    vertical-align: top;
+    height: 45%;
+    margin-right: 15%;
+}
