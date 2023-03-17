@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 9</title>
+	<script type="text/javascript">
+		const btn = document.getElementById("altoContraste");
+		const lnk = document.querySelector("link[href= 'style.css");
+		const stlcss = new URL("./style.css", window.location)
+
+		function aa() {
+			if (lnk.href == stlcss.href){
+				lnk.href = "altoContraste.css";
+			}
+			else {
+				lnk.href = "style.css"
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="container">
+		<header id="header">
+			<img src="burguerking.png" alt="Burguer King">
+			<nav>				
+				<ul class="item">
+					<li >Combos</li>
+					<li >Sobremesas</li>		
+					<li >Sobre</li>
+					<li >Informações</li>
+					<li ><a href="javascript:aa()" id="altoContraste">Auto Contraste</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+</body>
+</html>

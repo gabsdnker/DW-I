@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercício 5</title>
+		 <script type="text/javascript">
+    	var nome = prompt("Digite seu nome: ")
+    </script>
+   	</head>
+   	<body>
+   		<h1 id= "mensagem">Bem vindo</h1>
+   		<script type="text/javascript">
+   			document.querySelector("#mensagem").textContent += nome + "!";
+   		</script>
+   		<h2 id= "data"></h2>
+   		<script type="text/javascript">
+   			var data = new Date();
+   			document.querySelector("#data").textContent = data;
+   		</script>
+   	</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 10</title>
+	<style type="text/css">
+		input{
+		  border: 0;
+		  padding: 10px;
+		  width: 200px;
+		  height: 50px;
+		  display: inline-block;
+		  margin: 10px;
+		  cursor: pointer;
+		  border-radius: 4px;
+		  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		   transition: all .3s ease-out;
+		  transition-property: all;
+		  transition-duration: 0.3s;
+		  transition-timing-function: ease-out;
+		}
+	</style>
+	<script>
+		function receberNomes() {
+			let n = window.prompt("Quantidade de pessoas: ");
+			if (n != null) {
+				const nomes = [];
+				n = parseInt(n);
+
+				for (var a = 1; a <= n; a++){
+					let nome = window.prompt("Nome da pessoa "+ a + ":");
+					nomes.push(nome[0].toUpperCase() + nome.substring(1));
+				}
+				nomes.sort();
+				const reverso = nomes.reverse();
+				for (a = 0; a<n; a++){
+					document.getElementById("resultado").innerHTML += nomes[a] + (a == n-1 ? "." : ",");
+				}
+			}
+		}
+	</script>
+
+</head>
+<body>
+	<input type="button" value="Adicionar nomes" onclick="receberNomes()">
+	<br>
+	<br>
+	<div id="resultado"></div>
+</body>
+</html>

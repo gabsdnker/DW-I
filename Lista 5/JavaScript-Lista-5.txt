@@ -1,0 +1,79 @@
+1-([adaptada] Prova: Técnico Judiciário - Programação de Sistemas - STM - CESPE 2018) O código JavaScript a seguir altera a palavra “Pergunta” para “Resposta” quando o evento onclick é disparado. Obs.: considere que getElementById(“q1”) faz o mesmo que querySelector(“#q1”).
+a) Certo
+b) Errado
+
+Resposta: b)Errado
+
+2- Quais são as janelas do tipo popup boxes disponíveis em JavaScript?
+a) alert, dialog, popup
+b) alert, confirm, prompt
+c) alerta, confirmation, window
+d) alert, close, input
+e) alert, confirm, close
+
+Resposta: b)alert, confirm, prompt
+
+3- Qual das alternativas contém uma afirmação incorreta sobre JavaScript?
+a) true + true + false === 2 retorna true
+b) false + false + false + 0 retorna 0
+c) typeof (NaN + NaN) retorna “number”
+d) typeof NaN + NaN retorna “numberNaN”
+e) NaN == NaN retorna true
+
+Resposta: e) NaN == NaN retorna true
+
+4- ([adaptada] CREMERJ -- Técnico em Informática, FDC 2011) Após a execução do código abaixo no console de um browser, que valores serão mostrados na tela?
+for (a = 1, b = 0, c = 2, d = 1; a < 8; a++, d = b+c, b = c, c = d)
+	{ 
+		console.log(d + " ");
+	}
+a) 1, 2, 4, 6, 10, 16, 26
+b) 1, 1, 2, 3, 5, 8, 11
+c) 1
+d) 1, 10, 20, 30, 40, 50, 60, 70
+e) 1, 3, 5, 7, 9, 11, 13
+
+Resposta: a)1, 2, 4, 6, 10, 16, 26
+
+5-Crie um código JavaScript que receba via prompt() o nome do usuário e informe na página (em um h1) uma mensagem de boas vindas, contendo o nome do usuário, e em um cabeçalho h2, data e hora atuais. A saída esperada é semelhante a da imagem abaixo:
+
+arquivo: JavaScript-1.html
+
+6-Analise o código abaixo e assinale certo ou errado.
+	1.<script>
+	2. var opcao = confirm("Escolha...");
+	3. if (opcao){
+	4. alert ("valor: "+opcao);
+	5. } else {
+	6. alert ("valor: "+opcao);
+	7. }
+	8. </script>
+Considerando o trecho de código acima, escrito em JavaScript, o trecho de código da linha 8 informa apenas que é o início do próximo trecho de código JavaScript.
+a) Certo
+b) Errado
+
+Resposta: a) Certo
+
+7- Crie uma página HTML com uma div#resultado. Utilizando JavaScript, acrescente nesta div todos os números pares entre 10 e 100, inclusive.
+
+Resposta: arquivo- JavaScript-2.html
+
+8- Crie uma página HTML com uma div#resultado. Utilizando JavaScript, ao clicar em qualquer ponto da página, acrescente nesta div as coordenadas X e Y do ponto clicado na forma (x,y).
+ 
+Resposta: arquivo- JavaScript-3.html
+
+9- Crie uma página contendo três cabeçalhos com cores diferentes no texto e um hiperlink com o conteúdo “alto contraste”. Ao clicar neste hiperlink, todas as cores dos textos da página devem ser substituídas por preto e o fundo deve ser branco (ou o contrário). Ao clicar novamente, as cores originais devem retornar.
+
+Resposta: arquivo- JavaScript-4.html
+
+10- Crie uma página que receba um número n via prompt e depois n nomes de pessoas, também via prompt, armazenados em um array nomes. Imprima em uma div#resultado uma lista inversamente ordenada (Z-A) de itens contendo os nomes informados. Dicas: pesquisar e utilizar parseInt, push,  sort e reverse.
+
+Resposta: arquivo- JavaScript-5.html
+
+11- Pesquise e explique a diferença entre let e var.
+
+Resposta: A única diferença entre as duas é o escopo em que essas variáveis existem. Enquanto as variáveis declaradas com let têm escopo de bloco, instrução ou expressão, as variáveis declaradas com var têm escopo global ou escopo de função.
+
+12- Analisando os códigos abaixo, pesquise e explique por que o código da esquerda é considerado melhor que o da direita.
+
+Resposta: Porque length é uma propriedade que retorna ou define o tamanho do array, pode ser usado de forma equivocada e acabar truncando ou aumentando o array.
