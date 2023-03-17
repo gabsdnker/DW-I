@@ -1,0 +1,356 @@
+<!DOCTYPE html>                 
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Manuel Bandeira</title>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/autoresPages.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="webmanifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <script src="js/jquery-3.6.1.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	
+    <style>
+        .imagem-box, .hidden-image-mobile{
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+	<header class="header-main">
+
+		<div class="bloco-search-hidden"></div>
+
+		<div class="logotipo">
+			<a href="index.html"><img class="logo" src="img/logotipo.png" alt="Logotipo da página"> </a>
+		</div>
+	
+		<div class="header-search" onmouseleave="boxOut();" onmouseover="boxIn();">
+			
+			<div class="main-search" >
+				<div class="search-box">
+					<input  type="text" id="autor" class="search-text" placeholder="Pesquisar...">
+					<div class="search-btn">
+						<ion-icon class="lupa" name="search"></ion-icon>
+					</div>
+				</div>
+				<div id="lista"></div>
+			</div>
+
+		</div>	
+
+	</header> 
+
+		
+	<nav class="header-box2"> 
+
+		<ul class="main-menu">
+
+			<li class="item-menu first"> <a  href="index.html"> INÍCIO  </a> </li>
+
+			<li class="item-menu">
+				<span > AUTORES </span>
+				
+				<div class="espaco"> </div>
+
+				<ul class="sub-menu">
+					<li><a href="adeliaPage.html"> Adélia Prado </a></li>
+					<li><a href="carlosPage.html"> Carlos Drummond de Andrade </a></li>
+					<li><a href="ceciliaPage.html"> Cecília Meireles</a></li>
+					<li><a href="coraPage.html"> Cora Coralina </a></li>
+					<li><a href="hildaPage.html"> Hilda Hilst </a></li>
+					<li><a href="joaoPage.html"> João Cabral de Melo Neto </a></li>
+					<li><a href="machadoPage.html"> Machado de Assis </a></li>
+					<li><a href="manoelPage.html"> Manoel de Barros </a></li>
+					<li><a href="manuelPage.html"> Manuel Bandeira </a></li>
+					<li><a href="viniciusPage.html"> Vinicius de Moraes </a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+	
+
+    <main class="main-body">
+
+        <div class="box1">
+
+            <article class="texto-box">
+
+                    <div class="container-mobile">
+
+                        <h1 >Manuel Bandeira</h1>
+
+                        <div class="hidden-image-mobile">
+                            <img src="img/manuelFoto.jpg" alt="Foto do poeta Manuel Bandeira">
+                            <p>Manuel Bandeira. Foto: autor desconhecido.</p>
+                        </div>
+
+                    </div>
+
+                    <section class="biografia">
+                        <h2>Bibiografia</h2>
+                        <p>
+                            Manuel Bandeira nasceu em 19 de abril de 1886, em Recife, e morreu em 1968.
+                            <br>
+                            Manuel Bandeira é um poeta brasileiro da primeira geração modernista. No entanto, sua obra apresenta marcas do parnasianismo, simbolismo e concretismo. Na juventude, sua saúde frágil, devido à tuberculose, levou o poeta a uma vida de insegurança em relação ao futuro.
+                        </p>
+                    </section>
+                    
+                    <section class="principais-obras">
+                        <h2>Principais obras</h2>
+                    
+                            <ul class='lista1'>
+                                <li><a href="#poema81">Andorinha </a></li>
+                                <li><a href="#poema82">Arte de amar </a></li>
+                                <li><a href="#poema83">Consoada </a></li>
+                                <li><a href="#poema84">Desencanto </a></li>
+                                <li><a href="#poema85">O Anel de Vidro </a></li>
+                            </ul>
+                            <ul class="lista2"> 
+                                <li><a href="#poema86">O impossível carinho </a></li>
+                                <li><a href="#poema87">Os sapos </a></li>
+                                <li><a href="#poema88">O último poema </a></li>
+                                <li><a href="#poema89">Pneumotórax </a></li>
+                                <li><a href="#poema90">Teresa </a></li>
+                            </ul>
+                            
+                    </section>
+            </article>
+
+            <div class="imagem-box">
+                <img src="img/manuelFoto.jpg" alt="Foto do poeta Manuel Bandeira">
+                <p>Manuel Bandeira. Foto: autor desconhecido.</p>
+            </div>
+
+         </div>
+
+
+         <div class="linhas space">
+            <div class="linha2"></div>
+         </div>
+
+        <div class="box2">
+            
+            <section class="poemas">
+                
+                <h2>Poemas</h2>
+
+                <article class="poema" id="poema81">
+                    <h3>Andorinha</h3>
+                    <p>
+                        Andorinha lá fora está dizendo:<br>
+                        — “Passei o dia à toa, à toa!”<br>
+                        <br>
+                        Andorinha, andorinha, minha cantiga é mais triste!<br>
+                        Passei a vida à toa, à toa…
+                        
+                    </p>
+                </article>
+
+                <article class="poema" id="poema82">
+                    <h3>Arte de amar</h3>
+                    <p>
+                        Se queres sentir a felicidade de amar, esquece a tua alma.<br>
+                        A alma é que estraga o amor.<br>
+                        Só em Deus ela pode encontrar satisfação.<br>
+                        Não noutra alma.<br>
+                        Só em Deus – ou fora do mundo.<br>
+                        <br>
+                        As almas são incomunicáveis.<br>
+                        <br>
+                        Deixa o teu corpo entender-se com outro corpo.<br>
+                        <br>
+                        Porque os corpos se entendem, mas as almas não.
+                        
+                    </p>
+                </article>
+
+                <article class="poema" id="poema83">
+                    <h3>Consoada</h3>
+                    <p>
+                        Quando a Indesejada das gentes chegar<br>
+                        (Não sei se dura ou caroável),<br>
+                        talvez eu tenha medo.<br>
+                        Talvez sorria, ou diga:<br>
+                        — Alô, iniludível!<br>
+                        O meu dia foi bom, pode a noite descer.<br>
+                        (A noite com os seus sortilégios.)<br>
+                        Encontrará lavrado o campo, a casa limpa,<br>
+                        A mesa posta,<br>
+                        Com cada coisa em seu lugar.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema84">
+                    <h3>Desencanto</h3>
+                    <p>
+                        Eu faço versos como quem chora<br>
+                        De desalento… de desencanto…<br>
+                        Fecha o meu livro, se por agora<br>
+                        Não tens motivo nenhum de pranto.<br>
+                        <br>
+                        Meu verso é sangue. Volúpia ardente…<br>
+                        Tristeza esparsa… remorso vão…<br>
+                        Dói-me nas veias. Amargo e quente,<br>
+                        Cai, gota a gota, do coração.<br>
+                        <br>
+                        E nestes versos de angústia rouca,<br>
+                        Assim dos lábios a vida corre,<br>
+                        Deixando um acre sabor na boca.<br>
+                        — Eu faço versos como quem morre.
+                    
+                    </p>
+                </article>
+
+                <article class="poema" id="poema85">
+                    <h3>O Anel de Vidro</h3>
+                    <p>
+                        Aquele pequenino anel que tu me deste,<br>
+                        — Ai de mim — era vidro e logo se quebrou<br>
+                        Assim também o eterno amor que prometeste,<br>
+                        — Eterno! era bem pouco e cedo se acabou.<br>
+                        <br>
+                        Frágil penhor que foi do amor que me tiveste,<br>
+                        Símbolo da afeição que o tempo aniquilou, —<br>
+                        Aquele pequenino anel que tu me deste,<br>
+                        — Ai de mim — era vidro e logo se quebrou<br>
+                        <br>
+                        Não me turbou, porém, o despeito que investe<br>
+                        Gritando maldições contra aquilo que amou.<br>
+                        De ti conservo no peito a saudade celeste<br>
+                        Como também guardei o pó que me ficou<br>
+                        Daquele pequenino anel que tu me deste.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema86">
+                    <h3>O impossível carinho</h3>
+                    <p>
+                        Escuta, eu não quero contar-te o meu desejo<br>
+                        Quero apenas contar-te a minha ternura<br>
+                        Ah se em troca de tanta felicidade que me dás<br>
+                        Eu te pudesse repor<br>
+                        -Eu soubesse repor -<br>
+                        No coração despedaçado<br>
+                        As mais puras alegrias de tua infância!
+                    </p>
+                </article>
+
+                <article class="poema" id="poema87">
+                    <h3>Os sapos</h3>
+                    <p>
+                        Enfunando os papos,<br>
+                        Saem da penumbra,<br>
+                        Aos pulos, os sapos.<br>
+                        A luz os deslumbra.<br>
+                        <br>
+                        Em ronco que aterra,<br>
+                        Berra o sapo-boi:<br>
+                        - "Meu pai foi à guerra!"<br>
+                        - "Não foi!" - "Foi!" - "Não foi!".<br>
+                        <br>
+                        O sapo-tanoeiro,<br>
+                        Parnasiano aguado,<br>
+                        Diz: - "Meu cancioneiro<br>
+                        É bem martelado.<br>
+                        <br>
+                        Vede como primo<br>
+                        Em comer os hiatos!<br>
+                    </p>
+                </article>
+
+                <article class="poema" id="poema88">
+                    <h3>O último poema</h3>
+                    <p>
+                        Assim eu queria o meu último poema<br>
+                        Que fosse terno dizendo as coisas mais simples e menos intencionais<br>
+                        Que fosse ardente como um soluço sem lágrimas<br>
+                        Que tivesse a beleza das flores quase sem perfume<br>
+                        A pureza da chama em que se consomem os diamantes mais límpidos<br>
+                        A paixão dos suicidas que se matam sem explicação.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema89">
+                    <h3>Pneumotórax</h3>
+                    <p>
+                        Febre, hemoptise, dispneia e suores noturnos.<br>
+                        A vida inteira que podia ter sido e que não foi.<br>
+                        Tosse, tosse, tosse.<br>
+                        <br>
+                        Mandou chamar o médico:<br>
+                        — Diga trinta e três.<br>
+                        — Trinta e três… trinta e três… trinta e três…<br>
+                        — Respire.<br>
+                        <br>
+                        — O senhor tem uma escavação no pulmão esquerdo e o pulmão direito infiltrado.<br>
+                        — Então, doutor, não é possível tentar o pneumotórax?<br>
+                        — Não. A única coisa a fazer é tocar um tango argentino.
+                        
+                    </p>
+                </article>
+
+                <article class="poema" id="poema90">
+                    <h3>Teresa </h3>
+                    <p>
+                        A primeira vez que vi Teresa<br>
+                        Achei que ela tinha pernas estúpidas<br>
+                        Achei também que a cara parecia uma perna<br>
+                        <br>
+                        Quando vi Teresa de novo<br>
+                        Achei que os olhos eram muito mais velhos que o resto do corpo<br>
+                        (Os olhos nasceram e ficaram dez anos esperando que o resto do corpo nascesse)<br>
+                        <br>
+                        Da terceira vez não vi mais nada<br>
+                        Os céus se misturaram com a terra<br>
+                        E o espírito de Deus voltou a se mover sobre a face das águas.
+            
+                    </p>
+                </article>
+            </section>
+        </div>
+
+        <div class="voltar-ao-topo">
+            <img src="img/btnSubir.png" alt="Botão de voltar ao topo da página">
+        </div>
+
+    </main>
+
+	<footer>
+        <div class="main_footer">
+            <p class="m-b-footer"> Poemas Brasileiros - 2022, Copyright ©</p> 
+            <p> Desenvolvido por:  Gabrielli Danker e Monique Ellen dos Santos</p>
+        </div>
+	</footer>
+
+    <script src="js/page.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+</html>

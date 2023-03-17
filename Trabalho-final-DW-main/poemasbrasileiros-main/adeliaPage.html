@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adelia Prado</title>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/autoresPages.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="webmanifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <script src="js/jquery-3.6.1.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+    <style>
+        .imagem-box, .hidden-image-mobile{
+            max-height: 380px;
+        }
+    </style>
+</head>
+<body>
+
+	<header class="header-main">
+
+		<div class="bloco-search-hidden"></div>
+
+		<div class="logotipo">
+			<a href="index.html"><img class="logo" src="img/logotipo.png" alt="Logotipo da página"> </a>
+		</div>
+	
+		<div class="header-search" onmouseleave="boxOut();" onmouseover="boxIn();">
+			
+			<div class="main-search" >
+				<div class="search-box">
+					<input  type="text" id="autor" class="search-text" placeholder="Pesquisar...">
+					<div class="search-btn">
+						<ion-icon class="lupa" name="search"></ion-icon>
+					</div>
+				</div>
+				<div id="lista"></div>
+			</div>
+
+		</div>	
+
+	</header> 
+
+		
+	<nav class="header-box2"> 
+
+		<ul class="main-menu">
+
+			<li class="item-menu first"> <a  href="index.html"> INÍCIO  </a> </li>
+
+			<li class="item-menu">
+				<span > AUTORES </span>
+				
+				<div class="espaco"> </div>
+
+				<ul class="sub-menu">
+					<li><a href="adeliaPage.html"> Adélia Prado </a></li>
+					<li><a href="carlosPage.html"> Carlos Drummond de Andrade </a></li>
+					<li><a href="ceciliaPage.html"> Cecília Meireles</a></li>
+					<li><a href="coraPage.html"> Cora Coralina </a></li>
+					<li><a href="hildaPage.html"> Hilda Hilst </a></li>
+					<li><a href="joaoPage.html"> João Cabral de Melo Neto </a></li>
+					<li><a href="machadoPage.html"> Machado de Assis </a></li>
+					<li><a href="manoelPage.html"> Manoel de Barros </a></li>
+					<li><a href="manuelPage.html"> Manuel Bandeira </a></li>
+					<li><a href="viniciusPage.html"> Vinicius de Moraes </a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+	
+
+    <main class="main-body">
+        
+        <div class="box1">
+
+                <article class="texto-box">
+
+                    <div class="container-mobile">
+
+                        <h1 >Adélia Prado</h1>
+
+                        <div class="hidden-image-mobile">
+                            <img src="img/adeliaFoto.jpg" alt="Foto da poetisa Adélia Prado">
+                            <p>Adélia Prado. Foto: autor desconhecido.</p>
+                        </div>
+
+                    </div>
+
+                    <section class="biografia">
+                        <h2>Bibiografia</h2>
+                        <p>
+                            Adélia Prado nasceu em Divinópolis, em Minas Gerais, no dia 13 de dezembro de 1935.<br>
+                            Filha de João do Prado Filho, ferroviário, e de Ana Clotilde Correa, dona de casa, iniciou seus estudos no Grupo Escolar Padre Matias Lobato.<br>
+                            Em 1950, após a morte de sua mãe, escreveu seus primeiros versos.
+                        </p>
+                    </section>
+                    
+                    <section class="principais-obras">
+                        <h2>Principais obras</h2>
+                        <div>
+                            <ul class='lista1'>
+                                <li><a href="#poema1">Com licença poética</a></li>
+                                <li><a href="#poema2">Um jeito</a></li>
+                                <li><a href="#poema3">Momento</a></li>
+                                <li><a href="#poema4">Amor Feinho</a></li>
+                                <li><a href="#poema5">Fragmento</a></li>
+                            </ul>
+                            <ul class="lista2"> 
+                                <li><a href="#poema6">Dona Doida</a></li>
+                                <li><a href="#poema7">Agora ò José</a></li>
+                                <li><a href="#poema8">Janela</a></li>
+                                <li><a href="#poema9">Antes do nome</a></li>
+                                <li><a href="#poema10">Amor violeta</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </article>
+
+            <div class="imagem-box">
+                    <img src="img/adeliaFoto.jpg" alt="Foto da poetisa Adélia Prado">
+                    <p>Adélia Prado. Foto: autor desconhecido.</p>
+            </div>
+
+         </div>
+
+
+         <div class="linhas space">
+            <div class="linha2"></div>
+         </div>
+
+        <div class="box2">
+            
+            <section class="poemas">
+                
+                <h2>Poemas</h2>
+
+                <article class="poema" id="poema1">
+                    <h3>Com licença poética</h3>
+                    <p>
+                        Quando nasci um anjo esbelto,
+                        <br>
+                        desses que tocam trombeta, anunciou:
+                        <br>
+                        vai carregar bandeira.
+                        <br>
+                        Cargo muito pesado pra mulher,
+                        <br>
+                        esta espécie ainda envergonhada.
+                        <br>
+                        Aceito os subterfúgios que me cabem,
+                        <br>
+                        sem precisar mentir.
+                        <br>
+                        Não tão feia que não possa casar,
+                        <br>
+                        acho o Rio de Janeiro uma beleza e
+                        <br>
+                        ora sim, ora não, creio em parto sem dor.
+                        <br>
+                        Mas, o que sinto escrevo. Cumpro a sina.
+                        <br>
+                        Inauguro linhagens, fundo reinos
+                        <br>
+                        — dor não é amargura.
+                        <br>
+                        Minha tristeza não tem pedigree,
+                        <br>
+                        já a minha vontade de alegria,
+                        <br>
+                        sua raiz vai ao meu mil avô.
+                        <br>
+                        Vai ser coxo na vida, é maldição pra homem.
+                        <br>
+
+                        Mulher é desdobrável. Eu sou.<br><br>
+                        <i>Bagagem</i> (1976)
+                    </p>
+                </article>
+
+                <article class="poema" id="poema2">
+                    <h3>Um jeito</h3>
+                    <p>
+                        Meu amor é assim, sem nenhum pudor.
+                        <br>
+                        Quando aperta eu grito da janela
+                        <br>
+                        — ouve quem estiver passando —
+                        <br>
+                        ô fulano, vem depressa.
+                        <br>
+                        Tem urgência, medo de encanto quebrado,
+                        <br>
+                        é duro como osso duro.
+                        <br>
+                        Ideal eu tenho de amar como quem diz coisas:
+                        <br>
+                        quero é dormir com você, alisar seu cabelo,
+                        <br>
+                        espremer de suas costas as montanhas pequenininhas
+                        <br>
+                        de matéria branca. Por hora dou é grito e susto.
+                        <br>
+                        Pouca gente gosta.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema3">
+                    <h3>Momento</h3>
+                    <p>
+                        Enquanto eu fiquei alegre,<br>
+                        permaneceram um bule azul com um descascado no bico,
+                        <br>
+                        uma garrafa de pimenta pelo meio,
+                        <br>
+                        um latido e um céu limpidíssimo
+                        <br>
+                        com recém-feitas estrelas.
+                        <br>
+                        Resistiram nos seu lugares, em seus ofícios,
+                        <br>
+                        constituindo o mundo pra mim, anteparo
+                        <br>
+                        para o que foi um acometimento:
+                        <br>
+                        súbito é bom ter um corpo pra rir
+                        <br>
+                        e sacudir a cabeça. A vida é mais tempo
+                        <br>
+                        alegre do que triste. Melhor é ser.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema4">
+                    <h3>Amor Feinho</h3>
+                    <p>
+                        Eu quero amor feinho.<br>
+
+                        Amor feinho não olha um pro outro.<br>
+                    
+                        Uma vez encontrado é igual fé,<br>
+                    
+                        não teologa mais.<br>
+                    
+                        Duro de forte o amor feinho é magro, doido por sexo<br>
+                    
+                        e filhos tem os quantos haja.<br>
+                    
+                        Tudo que não fala, faz.<br>
+                    
+                        Planta beijo de três cores ao redor da casa<br>
+                    
+                        e saudade roxa e branca,<br>
+                    
+                        da comum e da dobrada.<br>
+                    
+                        Amor feinho é bom porque não fica velho.<br>
+                    
+                        Cuida do essencial; o que brilha nos olhos é o que é:<br>
+                    
+                        eu sou homem você é mulher.<br>
+                    
+                        Amor feinho não tem ilusão,<br>
+                    
+                        o que ele tem é esperança:<br>
+                    
+                        eu quero um amor feinho.
+                    </p>
+                </article>
+                <article class="poema" id="poema5">
+                    <h3>Fragmento</h3>
+                    <p>
+                        Bem-aventurado o que pressentiu<br>
+                        quando a manhã começou:<br>
+                        não vai ser diferente da noite.<br>
+                        Prolongados permanecerão o corpo sem pouso,<br>
+                        o pensamento dividido entre deitar-se primeiro<br>
+                        à esquerda ou à direita<br>
+                        e mesmo assim anunciou o paciente ao meio-dia:<br>
+                        algumas horas e já anoitece, o mormaço abranda,<br>
+                        um vento bom entra nessa janela.
+                    </p>
+                </article>
+                <article class="poema" id="poema6">
+                    <h3>Dona Doida</h3>
+                    <p>
+                        Uma vez, quando eu era menina, choveu grosso<br>
+                        com trovoadas e clarões, exatamente como chove agora.<br>
+                        Quando se pôde abrir as janelas,<br>
+                        as poças tremiam com os últimos pingos.<br>
+                        Minha mãe, como quem sabe que vai escrever um poema,<br>
+                        decidiu inspirada: chuchu novinho, angu, molho de ovos.<br>
+                        Fui buscar os chuchus e estou voltando agora,<br>
+                        trinta anos depois. Não encontrei minha mãe.<br>
+                        A mulher que me abriu a porta riu de dona tão velha,<br>
+                        com sombrinha infantil e coxas à mostra.<br>
+                        Meus filhos me repudiaram envergonhados,<br>
+                        meu marido ficou triste até a morte,<br>
+                        eu fiquei doida no encalço.<br>
+                        Só melhoro quando chove.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema7">
+                    <h3>Agora ò José</h3>
+                    <p>
+                        É teu destino, ó José,<br>
+                        a esta hora da tarde,<br>
+                        se encostar na parede,<br>
+                        as mãos para trás.<br>
+                        Teu paletó abotoado<br>
+                        de outro frio te guarda,<br>
+                        enfeita com três botões<br>
+                        tua paciência dura.<br>
+                        A mulher que tens, tão histérica,<br>
+                        tão histórica, desanima.<br>
+                        Mas, ó José, o que fazes?<br>
+                        Passeias no quarteirão<br>
+                        o teu passeio maneiro<br>
+                        e olhas assim e pensas,<br>
+                        o modo de olhar tão pálido.<br>
+                        Por improvável não conta<br>
+                        O que tu sentes, José?<br>
+                        O que te salva da vida<br>
+                        é a vida mesma, ó José,<br>
+                        e o que sobre ela está escrito<br>
+                        a rogo de tua fé:<br>
+                        “No meio do caminho tinha uma pedra”<br>
+                        “Tu és pedra e sobre esta pedra”.<br>
+                        A pedra, ó José, a pedra.<br>
+                        Resiste, ó José. Deita, José,<br>
+                        Dorme com tua mulher,<br>
+                        gira a aldraba de ferro pesadíssima.<br>
+                        O reino do céu é semelhante a um homem<br>
+                        como você, José.<br><br>
+                        <i>Bagagem</i> (1976)
+                    </p>
+                </article>
+
+                <article class="poema" id="poema8">
+                    <h3>Janela</h3>
+                    <p>
+                        Janela, palavra linda.<br>
+                        Janela é o bater das asas da borboleta amarela.<br>
+                        Abre pra fora as duas folhas de madeira à-toa pintada,<br>
+                        janela jeca, de azul.<br>
+                        Eu pulo você pra dentro e pra fora, monto a cavalo em você,<br>
+                        meu pé esbarra no chão. Janela sobre o mundo aberta, por onde vi<br>
+                        o casamento da Anita esperando neném, a mãe<br>
+                        do Pedro Cisterna urinando na chuva, por onde vi<br>
+                        meu bem chegar de bicicleta e dizer a meu pai:<br>
+                        minhas intenções com sua filha são as melhores possíveis.<br>
+                        Ô janela com tramela, brincadeira de ladrão,<br>
+                        claraboia na minha alma,<br>
+                        olho no meu coração.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema9">
+                    <h3>Antes do nome</h3>
+                    <p>
+                        Não me importa a palavra, esta corriqueira.<br>
+                        Quero é o esplêndido caos de onde emerge a sintaxe,<br>
+                        os sítios escuros onde nasce o “de”, o “aliás”,<br>
+                        o “o”, o “porém” e o “que”, esta incompreensível<br>
+                        muleta que me apóia.<br>
+                        Quem entender a linguagem entende Deus<br>
+                        cujo Filho é Verbo. Morre quem entender.<br>
+                        A palavra é disfarce de uma coisa mais grave, surda-muda,<br>
+                        foi inventada para ser calada.<br>
+                        Em momentos de graça, infrequentíssimos,<br>
+                        se poderá apanhá-la: um peixe vivo com a mão.<br>
+                        Puro susto e terror.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema10">
+                    <h3>Amor violeta</h3>
+                    <p>
+                        O amor me fere é debaixo do braço,<br>
+                        de um vão entre as costelas.<br>
+                        Atinge meu coração é por esta via inclinada.<br>
+                        Eu ponho o amor no pilão com cinza<br>
+                        e grão de roxo e soco. Macero ele,<br>
+                        faço dele cataplasma<br>
+                        e ponho sobre a ferida.
+                    </p>
+                </article>
+
+            </section>
+
+             </div>
+
+        <div class="voltar-ao-topo">
+            <img src="img/btnSubir.png" alt="Botão de voltar ao topo da página">
+        </div>
+
+    </main>
+
+	<footer>
+        <div class="main_footer">
+            <p class="m-b-footer"> Poemas Brasileiros - 2022</p> 
+            <p> Desenvolvido por:  Gabrielli Danker e Monique Ellen dos Santos</p>
+        </div>
+	</footer>
+
+    <script src="js/page.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

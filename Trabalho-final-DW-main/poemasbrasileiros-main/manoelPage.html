@@ -1,0 +1,393 @@
+<!DOCTYPE html>                 
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Manoel de Barros</title>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/autoresPages.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="webmanifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <script src="js/jquery-3.6.1.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+    <style>
+        .imagem-box, .hidden-image-mobile{
+            height: 480px;
+        }
+    </style>
+</head>
+<body>
+	<header class="header-main">
+
+		<div class="bloco-search-hidden"></div>
+
+		<div class="logotipo">
+			<a href="index.html"><img class="logo" src="img/logotipo.png" alt="Logotipo da página"> </a>
+		</div>
+	
+		<div class="header-search" onmouseleave="boxOut();" onmouseover="boxIn();">
+			
+			<div class="main-search" >
+				<div class="search-box">
+					<input  type="text" id="autor" class="search-text" placeholder="Pesquisar...">
+					<div class="search-btn">
+						<ion-icon class="lupa" name="search"></ion-icon>
+					</div>
+				</div>
+				<div id="lista"></div>
+			</div>
+
+		</div>	
+
+	</header> 
+
+		
+	<nav class="header-box2"> 
+
+		<ul class="main-menu">
+
+			<li class="item-menu first"> <a  href="index.html"> INÍCIO  </a> </li>
+
+			<li class="item-menu">
+				<span > AUTORES </span>
+				
+				<div class="espaco"> </div>
+
+				<ul class="sub-menu">
+					<li><a href="adeliaPage.html"> Adélia Prado </a></li>
+					<li><a href="carlosPage.html"> Carlos Drummond de Andrade </a></li>
+					<li><a href="ceciliaPage.html"> Cecília Meireles</a></li>
+					<li><a href="coraPage.html"> Cora Coralina </a></li>
+					<li><a href="hildaPage.html"> Hilda Hilst </a></li>
+					<li><a href="joaoPage.html"> João Cabral de Melo Neto </a></li>
+					<li><a href="machadoPage.html"> Machado de Assis </a></li>
+					<li><a href="manoelPage.html"> Manoel de Barros </a></li>
+					<li><a href="manuelPage.html"> Manuel Bandeira </a></li>
+					<li><a href="viniciusPage.html"> Vinicius de Moraes </a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+	
+    <main class="main-body">
+
+        <div class="box1">
+
+            <article class="texto-box">
+
+                    <div class="container-mobile">
+
+                        <h1 >Manoel de Barros</h1>
+
+                        <div class="hidden-image-mobile">
+                            <img src="img/manoelFoto.jpg" alt="Foto do poeta Manoel de Barros">
+                            <p>Manoel de Barros. Foto: autor desconhecido.</p>
+                        </div>
+
+                    </div>
+
+                    <section class="biografia">
+                        <h2>Bibiografia</h2>
+                        <p>
+                            Manoel Wenceslau Leite Barros nasceu em Cuiabá, Mato Grosso, dia 19 de dezembro de 1916.
+                            <br>
+                            Passou a infância em sua cidade natal onde seu pai, João Venceslau Barros, tinha uma fazenda no Pantanal.<br>
+                            Já na adolescência, mudou-se para Campo Grande onde estudou num Colégio Interno. Formou-se em Direito no Rio de Janeiro.
+                        </p>
+                    </section>
+                    
+                    <section class="principais-obras">
+                        <h2>Principais obras</h2>
+                            <ul class='lista1'>
+                                <li><a href="#poema71">A borra </a></li>
+                                <li><a href="#poema72">Biografia do orvalho </a></li>
+                                <li><a href="#poema73">Bocó </a></li>
+                                <li><a href="#poema74">Deus disse </a></li>
+                                <li><a href="#poema75">Matéria de poesia </a></li>
+                            </ul>
+                            <ul class="lista2"> 
+                                <li><a href="#poema76">Na enseada de Botafogo </a></li>
+                                <li><a href="#poema77">Olhos parados </a></li>
+                                <li><a href="#poema78">Os caramujos-flores </a></li>
+                                <li><a href="#poema79">Poema </a></li>
+                                <li><a href="#poema80">Uma didática da invenção </a></li>
+                            </ul>
+                            
+                    </section>
+            </article>
+
+            <div class="imagem-box">
+                    <img src="img/manoelFoto.jpg" alt="Foto do poeta Manoel de Barros">
+                    <p>Manoel de Barros. Foto: autor desconhecido.</p>
+            </div>
+
+         </div>
+
+         <div class="linhas space">
+            <div class="linha2"></div>
+         </div>
+
+        <div class="box2">
+            
+            <section class="poemas">
+                
+                <h2>Poemas</h2>
+
+                <article class="poema" id="poema71">
+                    <h3>A borra</h3>
+                    <p>
+                        Prefiro as palavras obscuras que moram nos<br>
+                        fundos de uma cozinha — tipo borra, latas, cisco<br>
+                        Do que as palavras que moram nos sodalícios —<br>
+                        tipo excelência, conspícuo, majestade.<br>
+                        Também os meus alter egos são todos borra,<br>
+                        ciscos, pobres-diabos<br>
+                        Que poderiam morar nos fundos de uma cozinha<br>
+                        — tipo Bola Sete, Mário Pega Sapo, Maria Pelego<br>
+                        Preto etc.<br>
+                        Todos bêbedos ou bocós.<br>
+                        E todos condizentes com andrajos.<br>
+                        Um dia alguém me sugeriu que adotasse um<br>
+                        alter ego respeitável — tipo um príncipe, um<br>
+                        almirante, um senador.<br>
+                        Eu perguntei:<br>
+                        Mas quem ficará com os meus abismos se os<br>
+                        pobres-diabos não ficarem? 
+                    </p>
+                </article>
+
+                <article class="poema" id="poema72">
+                    <h3>Biografia do orvalho</h3>
+                    <p>
+                        A maior riqueza do homem é a sua incompletude.<br>
+                        Nesse ponto sou abastado.<br>
+                        Palavras que me aceitam como sou — eu não<br>
+                        aceito.<br>
+                        Não aguento ser apenas um sujeito que abre<br>
+                        portas, que puxa válvulas, que olha o relógio, que<br>
+                        compra pão às 6 horas da tarde, que vai lá fora,<br>
+                        que aponta lápis, que vê a uva etc. etc.<br>
+                        Perdoai.<br>
+                        Mas eu preciso ser Outros.<br>
+                        Eu penso renovar o homem usando borboletas.<br>
+                        
+                    </p>
+                </article>
+
+                <article class="poema" id="poema73">
+                    <h3>Bocó</h3>
+                    <p>
+                        Quando o moço estava a catar caracóis e pedrinhas<br>
+                        na beira do rio até duas horas da tarde, ali<br>
+                        também Nhá Velina Cuê estava. <br> A velha paraguaia
+                        de ver aquele moço a catar caracóis na beira do<br>
+                        rio até duas horas da tarde, balançou a cabeça<br>
+                        de um lado para o outro ao gesto de quem estivesse<br>
+                        com pena do moço, e disse a palavra bocó. <br>O moço
+                        ouviu a palavra bocó e foi para casa correndo<br>
+                        a ver nos seus trinta e dois dicionários que coisa<br>
+                        era ser bocó. <br>Achou cerca de nove expressões que<br>
+                        sugeriam símiles a tonto.<br> E se riu de gostar.<br> E
+                        separou para ele os nove símiles. <br>Tais: Bocó é
+                        sempre alguém acrescentado de criança. <br>Bocó é
+                        uma exceção de árvore. <br>Bocó é um que gosta de
+                        conversar bobagens profundas com as águas. <br>Bocó
+                        é aquele que fala sempre com sotaque das suas
+                        origens. <br>É sempre alguém obscuro de mosca.<br> É
+                        alguém que constrói sua casa com pouco cisco.<br>
+                        É um que descobriu que as tardes fazem parte de
+                        haver beleza nos pássaros. <br>Bocó é aquele que
+                        olhando para o chão enxerga um verme sendo-o.<br>
+                        Bocó é uma espécie de sânie com alvoradas.<br> Foi
+                        o que o moço colheu em seus trinta e dois
+                        dicionários. <br>E ele se estimou.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema74">
+                    <h3>Deus disse</h3>
+                    <p>
+                        Deus disse: Vou ajeitar a você um dom:<br>
+                        Vou pertencer você para uma árvore.<br>
+                        E pertenceu-me.<br>
+                        Escuto o perfume dos rios.<br>
+                        Sei que a voz das águas tem sotaque azul.<br>
+                        Sei botar cílio nos silêncios.<br>
+                        Para encontrar o azul eu uso pássaros.<br>
+                        Só não desejo cair em sensatez.<br>
+                        Não quero a boa razão das coisas.<br>
+                        Quero o feitiço das palavras.
+                        
+                    </p>
+                </article>
+
+                <article class="poema" id="poema75">
+                    <h3>Matéria de poesia</h3>
+                    <p>
+                        Todas as coisas cujos valores podem ser<br>
+                        disputados no cuspe à distância<br>
+                        servem para poesia<br>
+                        <br>
+                        O homem que possui um pente<br>
+                        e uma árvore serve para poesia<br>
+                        <br>
+                        Terreno de 10 x 20, sujo de mato — os que<br>
+                        nele gorjeiam: detritos semoventes, latas<br>
+                        servem para poesia<br>
+                        <br>
+                        Um chevrolé gosmento<br>
+                        Coleção de besouros abstêmios<br>
+                        O bule de Braque sem boca<br>
+                        são bons para poesia<br>
+                        <br>
+                        As coisas que não levam a nada<br>
+                        têm grande importância<br>
+                        <br>
+                        Cada coisa ordinária é um elemento de estima<br>
+                        Cada coisa sem préstimo tem seu lugar<br>
+                        na poesia ou na geral
+                        
+                    </p>
+                </article>
+
+                <article class="poema" id="poema76">
+                    <h3>Na enseada de Botafogo</h3>
+                    <p>
+                        Como estou só: Afago casas tortas,<br>
+                        Falo com o mar na rua suja…<br>
+                        Nu e liberto levo o vento<br>
+                        No ombro de losangos amarelos.<br>
+                        <br>
+                        Ser menino aos trinta anos, que desgraça<br>
+                        Nesta borda de mar de Botafogo!<br>
+                        Que vontade de chorar pelos mendigos!<br>
+                        Que vontade de voltar para a fazenda!<br>
+                        <br>
+                        Por que deixam um menino que é do mato<br>
+                        Amar o mar com tanta violência?
+                    </p>
+                </article>
+
+                <article class="poema" id="poema77">
+                    <h3>Olhos parados</h3>
+                    <p>
+                        Olhar, reparar tudo em volta, sem a menor intenção de poesia.<br>
+                        Girar os braços, respirar o ar fresco, lembrar dos parentes.<br>
+                        Lembrar da casa da gente, das irmãs, dos irmãos e dos pais da gente.<br>
+                        Lembrar que estão longe e ter saudades deles…<br>
+                        Lembrar da cidade onde se nasceu, com inocência, e rir sozinho.<br>
+                        Rir de coisas passadas. Ter saudade da pureza.<br>
+                        Lembrar de músicas, de bailes, de namoradas que a gente já teve.<br>
+                        Lembrar de lugares que a gente já andou e de coisas que a gente já viu.<br>
+                        Lembrar de viagens que a gente já fez e de amigos que ficaram longe.<br>
+                        Lembrar dos amigos que estão próximos e das conversas com eles.<br>
+                        Saber que a gente tem amigos de fato!<br>
+                        Tirar uma folha de árvore, ir mastigando, sentir os ventos pelo rosto…<br>
+                        Sentir o sol. Gostar de ver as coisas todas.<br>
+                        Gostar de estar ali caminhando. Gostar de estar assim esquecido.<br>
+                        Gostar desse momento. Gostar dessa emoção tão cheia de riquezas íntimas.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema78">
+                    <h3>Os caramujos-flores</h3>
+                    <p>
+                        Os caramujos-flores são um ramo de caramujos que<br>
+                        só saem de noite para passear<br>
+                        De preferência procuram paredes sujas onde se<br>
+                        pregam e se pastam<br>
+                        Não sabemos ao certo, aliás, se pastam eles<br>
+                        essas paredes ou se são por elas pastados<br>
+                        Provavelmente se compensem<br>
+                        Paredes e caramujos se entendem por devaneios<br>
+                        Difícil imaginar uma devoração mútua<br>
+                        Antes diria que usam de uma transubstanciação:<br>
+                        paredes emprestam seu musgo aos caramujos-flores<br>
+                        e os caramujos-flores às paredes sua gosma<br>
+                        Assim desabrocham como os bestegos.
+                        
+                    </p>
+                </article>
+
+                <article class="poema" id="poema79">
+                    <h3>Poema</h3>
+                    <p>
+                        A poesia está guardada nas palavras — é tudo que eu sei.<br>
+                        Meu fado é o de não saber quase tudo.<br>
+                        Sobre o nada eu tenho profundidades.<br>
+                        Não tenho conexões com a realidade.<br>
+                        Poderoso para mim não é aquele que descobre ouro.<br>
+                        Para mim poderoso é aquele que descobre as<br>
+                        insignificâncias (do mundo e as nossas).<br>
+                        Por essa pequena sentença me elogiaram de imbecil.<br>
+                        Fiquei emocionado e chorei.<br>
+                        Sou fraco para elogios.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema80">
+                    <h3>Uma didática da invenção </h3>
+                    <p>
+                        O rio que fazia uma volta<br>
+                        atrás da nossa casa<br>
+                        era a imagem de um vidro mole...<br><br>
+
+                        Passou um homem e disse:<br>
+                        Essa volta que o rio faz...<br>
+                        se chama enseada...<br><br>
+
+                        Não era mais a imagem de uma cobra de vidro<br>
+                        que fazia uma volta atrás da casa.<br>
+                        Era uma enseada.<br>
+                        Acho que o nome empobreceu a imagem.
+                    </p>
+                </article>
+
+            </section>
+
+            <div class="voltar-ao-topo">
+                <img src="img/btnSubir.png" alt="Botão de voltar ao topo da página">
+            </div>
+
+        </div>
+
+    </main>
+
+	<footer>
+        <div class="main_footer">
+            <p class="m-b-footer"> Poemas Brasileiros - 2022</p> 
+            <p> Desenvolvido por:  Gabrielli Danker e Monique Ellen dos Santos</p>
+        </div>
+	</footer>
+
+
+    <script src="js/page.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+</html>

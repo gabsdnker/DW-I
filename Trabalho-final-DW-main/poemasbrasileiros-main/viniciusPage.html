@@ -1,0 +1,445 @@
+<!DOCTYPE html>                 
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vinicius de Moraes</title>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/autoresPages.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="webmanifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <script src="js/jquery-3.6.1.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+    <style>
+        .imagem-box, .hidden-image-mobile{
+            height: 420px;
+            max-height: 420px;
+        }
+    </style>
+</head>
+<body>
+	<header class="header-main">
+
+		<div class="bloco-search-hidden"></div>
+
+		<div class="logotipo">
+			<a href="index.html"><img class="logo" src="img/logotipo.png" alt="Logotipo da página"> </a>
+		</div>
+	
+		<div class="header-search" onmouseleave="boxOut();" onmouseover="boxIn();">
+			
+			<div class="main-search" >
+				<div class="search-box">
+					<input  type="text" id="autor" class="search-text" placeholder="Pesquisar...">
+					<div class="search-btn">
+						<ion-icon class="lupa" name="search"></ion-icon>
+					</div>
+				</div>
+				<div id="lista"></div>
+			</div>
+
+		</div>	
+
+	</header> 
+
+		
+	<nav class="header-box2"> 
+
+		<ul class="main-menu">
+
+			<li class="item-menu first"> <a  href="index.html"> INÍCIO  </a> </li>
+
+			<li class="item-menu">
+				<span > AUTORES </span>
+				
+				<div class="espaco"> </div>
+
+				<ul class="sub-menu">
+					<li><a href="adeliaPage.html"> Adélia Prado </a></li>
+					<li><a href="carlosPage.html"> Carlos Drummond de Andrade </a></li>
+					<li><a href="ceciliaPage.html"> Cecília Meireles</a></li>
+					<li><a href="coraPage.html"> Cora Coralina </a></li>
+					<li><a href="hildaPage.html"> Hilda Hilst </a></li>
+					<li><a href="joaoPage.html"> João Cabral de Melo Neto </a></li>
+					<li><a href="machadoPage.html"> Machado de Assis </a></li>
+					<li><a href="manoelPage.html"> Manoel de Barros </a></li>
+					<li><a href="manuelPage.html"> Manuel Bandeira </a></li>
+					<li><a href="viniciusPage.html"> Vinicius de Moraes </a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+	
+
+    <main class="main-body">
+
+        <div class="box1">
+
+            <article class="texto-box">
+
+                    <div class="container-mobile">
+
+                        <h1 >Vinicius de Moraes</h1>
+
+                        <div class="hidden-image-mobile">
+                            <img src="img/viniciusFoto.webp" alt="Foto do poeta Vinicius de Moraes">
+                            <p>Vinicius de Moraes. Foto: autor desconhecido.</p>
+                        </div>
+
+                    </div>
+
+                    <section class="biografia">
+                        <h2>Bibiografia</h2>
+                        <p>
+                            Vinicius de Moraes nasceu em 19 de outubro de 1913, na cidade do Rio de Janeiro.
+                            <br>
+                            Mais tarde, fez faculdade de Direito, atuou como diplomata, escreveu peças de teatro, crônicas, poesias e foi um dos criadores da bossa-nova. 
+                            <br>
+                            Além disso, escreveu canções em parceria com grandes artistas, como Tom Jobim e Toquinho.
+                        </p>
+                    </section>
+                    
+                    <section class="principais-obras">
+                        <h2>Principais obras</h2>
+                            <ul class='lista1'>
+                                <li><a href="#poema91">A Rosa de Hiroshima </a></li>
+                                <li><a href="#poema92">O Velho e a Flor </a></li>
+                                <li><a href="#poema93">O verbo no infinito </a></li>
+                                <li><a href="#poema94">Pela luz dos olhos teus </a></li>
+                                <li><a href="#poema95">Poema dos olhos da amada </a></li>
+                            </ul>
+                            <ul class="lista2"> 
+                                <li><a href="#poema96">Soneto de Fidelidade </a></li>
+                                <li><a href="#poema97">Soneto de separação </a></li>
+                                <li><a href="#poema98">Soneto do amigo </a></li>
+                                <li><a href="#poema99">Soneto do Amor Total </a></li>
+                                <li><a href="#poema100">Tomara </a></li>
+                            </ul>
+                            
+                    </section>
+            </article>
+
+            <div class="imagem-box">
+                <img src="img/viniciusFoto.webp" alt="Foto do poeta Vinicius de Moraes">
+                <p>Vinicius de Moraes. Foto: autor desconhecido.</p>
+            </div>
+
+         </div>
+         
+         <div class="linhas space">
+            <div class="linha2"></div>
+         </div>
+
+        <div class="box2">
+            
+            <section class="poemas">
+                
+                <h2>Poemas</h2>
+
+                <article class="poema" id="poema91">
+                    <h3>A Rosa de Hiroshima</h3>
+                    <p>
+                        Pensem nas crianças<br>
+                        Mudas telepáticas<br>
+                        Pensem nas meninas<br>
+                        Cegas inexatas<br>
+                        Pensem nas mulheres<br>
+                        Rotas alteradas<br>
+                        Pensem nas feridas<br>
+                        Como rosas cálidas<br>
+                        Mas oh não se esqueçam<br>
+                        Da rosa da rosa<br>
+                        Da rosa de Hiroshima<br>
+                        A rosa hereditária<br>
+                        A rosa radioativa<br>
+                        Estúpida e inválida.<br>
+                        A rosa com cirrose<br>
+                        A antirrosa atômica<br>
+                        Sem cor sem perfume<br>
+                        Sem rosa sem nada.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema92">
+                    <h3>O Velho e a Flor</h3>
+                    <p>
+                        Por céus e mares eu andei,<br>
+                        Vi um poeta e vi um rei<br>
+                        Na esperança de saber<br>
+                        O que é o amor.<br>
+                        <br>
+                        Ninguém sabia me dizer,<br>
+                        Eu já queria até morrer<br>
+                        Quando um velhinho<br>
+                        Com uma flor assim falou:<br>
+                        <br>
+                        O amor é o carinho,<br>
+                        É o espinho que não se vê em cada flor.<br>
+                        É a vida quando<br>
+                        Chega sangrando aberta<br>
+                        em pétalas de amor.
+                    
+                    </p>
+                </article>
+
+                <article class="poema" id="poema93">
+                    <h3>O verbo no infinito</h3>
+                    <p>
+                        Ser criado, gerar-se, transformar<br>
+                        O amor em carne e a carne em amor; nascer<br>
+                        Respirar, e chorar, e adormecer<br>
+                        E se nutrir para poder chorar<br>
+                        <br>
+                        Para poder nutrir-se; e despertar<br>
+                        Um dia à luz e ver, ao mundo e ouvir<br>
+                        E começar a amar e então sorrir<br>
+                        E então sorrir para poder chorar.<br>
+                        <br>
+                        E crescer, e saber, e ser, e haver<br>
+                        E perder, e sofrer, e ter horror<br>
+                        De ser e amar, e se sentir maldito<br>
+                        <br>
+                        E esquecer tudo ao vir um novo amor<br>
+                        E viver esse amor até morrer<br>
+                        E ir conjugar o verbo no infinito…<br>
+                        <br>
+                    </p>
+                </article>
+
+                <article class="poema" id="poema94">
+                    <h3>Pela luz dos olhos teus</h3>
+                    <p>
+                        Quando a luz dos olhos meus<br>
+                        E a luz dos olhos teus<br>
+                        Resolvem se encontrar<br>
+                        Ai que bom que isso é meu Deus<br>
+                        Que frio que me dá o encontro desse olhar<br>
+                        Mas se a luz dos olhos teus<br>
+                        Resiste aos olhos meus só p'ra me provocar<br>
+                        Meu amor, juro por Deus me sinto incendiar<br>
+                        Meu amor, juro por Deus<br>
+                        Que a luz dos olhos meus já não pode esperar<br>
+                        Quero a luz dos olhos meus<br>
+                        Na luz dos olhos teus sem mais lará-lará<br>
+                        Pela luz dos olhos teus<br>
+                        Eu acho meu amor que só se pode achar<br>
+                        Que a luz dos olhos meus precisa se casar.<br>
+                        <br>
+                    </p>
+                </article>
+
+                <article class="poema" id="poema95">
+                    <h3>Poema dos olhos da amada</h3>
+                    <p>
+                        Ó minha amada<br>
+                        Que olhos os teus<br>
+                        <br>
+                        São cais noturnos<br>
+                        Cheios de adeus<br>
+                        São docas mansas<br>
+                        Trilhando luzes<br>
+                        Que brilham longe<br>
+                        Longe nos breus…<br>
+                        <br>
+                        Ó minha amada<br>
+                        Que olhos os teus<br>
+                        <br>
+                        Quanto mistério<br>
+                        Nos olhos teus<br>
+                        Quantos saveiros<br>
+                        Quantos navios<br>
+                        Quantos naufrágios<br>
+                        Nos olhos teus…<br>
+                        <br>
+                        Ó minha amada<br>
+                        Que olhos os teus<br>
+                        <br>
+                        Se Deus houvera<br>
+                        Fizera-os Deus<br>
+                        Pois não os fizera<br>
+                        Quem não soubera<br>
+                        Que há muitas eras<br>
+                        Nos olhos teus.<br>
+                        <br>
+                        Ah, minha amada<br>
+                        De olhos ateus<br>
+                        <br>
+                        Cria a esperança<br>
+                        Nos olhos meus<br>
+                        De verem um dia<br>
+                        O olhar mendigo<br>
+                        Da poesia<br>
+                        Nos olhos teus.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema96">
+                    <h3>Soneto de Fidelidade</h3>
+                    <p>
+                        De tudo ao meu amor serei atento<br>
+                        Antes, e com tal zelo, e sempre, e tanto<br>
+                        Que mesmo em face do maior encanto<br>
+                        Dele se encante mais meu pensamento.<br>
+                        <br>
+                        Quero vivê-lo em cada vão momento<br>
+                        E em seu louvor hei de espalhar meu canto<br>
+                        E rir meu riso e derramar meu pranto<br>
+                        Ao seu pesar ou seu contentamento<br>
+                        <br>
+                        E assim, quando mais tarde me procure<br>
+                        Quem sabe a morte, angústia de quem vive<br>
+                        Quem sabe a solidão, fim de quem ama<br>
+                        <br>
+                        Eu possa me dizer do amor (que tive):<br>
+                        Que não seja imortal, posto que é chama<br>
+                        Mas que seja infinito enquanto dure.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema97">
+                    <h3>Soneto de separação</h3>
+                    <p>
+                        De repente do riso fez-se o pranto<br>
+                        Silencioso e branco como a bruma<br>
+                        E das bocas unidas fez-se a espuma<br>
+                        E das mãos espalmadas fez-se o espanto.<br>
+                        <br>
+                        De repente da calma fez-se o vento<br>
+                        Que dos olhos desfez a última chama<br>
+                        E da paixão fez-se o pressentimento<br>
+                        E do momento imóvel fez-se o drama.<br>
+                        <br>
+                        De repente, não mais que de repente<br>
+                        Fez-se de triste o que se fez amante<br>
+                        E de sozinho o que se fez contente.<br>
+                        <br>
+                        Fez-se do amigo próximo o distante<br>
+                        Fez-se da vida uma aventura errante<br>
+                        De repente, não mais que de repente. <br>
+                        <br>
+                    </p>
+                </article>
+
+                <article class="poema" id="poema98">
+                    <h3>Soneto do amigo</h3>
+                    <p>
+                        Enfim, depois de tanto erro passado<br>
+                        Tantas retaliações, tanto perigo<br>
+                        Eis que ressurge noutro o velho amigo<br>
+                        Nunca perdido, sempre reencontrado.<br>
+                        <br>
+                        É bom sentá-lo novamente ao lado<br>
+                        Com olhos que contêm o olhar antigo<br>
+                        Sempre comigo um pouco atribulado<br>
+                        E como sempre singular comigo.<br>
+                        <br>
+                        Um bicho igual a mim, simples e humano<br>
+                        Sabendo se mover e comover<br>
+                        E a disfarçar com o meu próprio engano.<br>
+                        <br>
+                        O amigo: um ser que a vida não explica<br>
+                        Que só se vai ao ver outro nascer<br>
+                        E o espelho de minha alma multiplica…
+                    </p>
+                </article>
+
+                <article class="poema" id="poema99">
+                    <h3>Soneto do Amor Total</h3>
+                    <p>
+                        Amo-te tanto, meu amor… não cante<br>
+                        O humano coração com mais verdade…<br>
+                        Amo-te como amigo e como amante<br>
+                        Numa sempre diversa realidade<br>
+                        <br>
+                        Amo-te afim, de um calmo amor prestante,<br>
+                        E te amo além, presente na saudade.<br>
+                        Amo-te, enfim, com grande liberdade<br>
+                        Dentro da eternidade e a cada instante.<br>
+                        <br>
+                        Amo-te como um bicho, simplesmente,<br>
+                        De um amor sem mistério e sem virtude<br>
+                        Com um desejo maciço e permanente.<br>
+                        <br>
+                        E de te amar assim muito e amiúde,<br>
+                        É que um dia em teu corpo de repente<br>
+                        Hei de morrer de amar mais do que pude.
+                    
+                    </p>
+                </article>
+
+                <article class="poema" id="poema100">
+                    <h3>Tomara </h3>
+                    <p>
+                        Tomara<br>
+                        Que você volte depressa<br>
+                        Que você não se despeça<br>
+                        Nunca mais do meu carinho<br>
+                        E chore, se arrependa<br>
+                        E pense muito<br>
+                        Que é melhor se sofrer junto<br>
+                        Que viver feliz sozinho<br>
+                        <br>
+                        Tomara<br>
+                        Que a tristeza te convença<br>
+                        Que a saudade não compensa<br>
+                        E que a ausência não dá paz<br>
+                        E o verdadeiro amor de quem se ama<br>
+                        Tece a mesma antiga trama<br>
+                        Que não se desfaz<br>
+                        <br>
+                        E a coisa mais divina<br>
+                        Que há no mundo<br>
+                        É viver cada segundo<br>
+                        Como nunca mais...
+                    </p>
+                </article>
+
+            </section>
+
+        </div>
+
+        <div class="voltar-ao-topo">
+            <img  src="img/btnSubir.png" alt="Botão de voltar ao topo da página">
+        </div>
+
+    </main>
+
+	<footer>
+        <div class="main_footer">
+            <p class="m-b-footer"> Poemas Brasileiros - 2022</p> 
+            <p> Desenvolvido por:  Gabrielli Danker e Monique Ellen dos Santos</p>
+        </div>
+
+	</footer>
+
+
+    <script src="js/page.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+</html>

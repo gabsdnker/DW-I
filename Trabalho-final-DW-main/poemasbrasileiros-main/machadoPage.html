@@ -1,0 +1,404 @@
+<!DOCTYPE html>                 
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Machado de Assis</title>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/autoresPages.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="webmanifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <script src="js/jquery-3.6.1.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+    <style>
+        .imagem-box, .hidden-image-mobile{
+            height: 480px;
+        }
+    </style>
+</head>
+<body>
+	<header class="header-main">
+
+		<div class="bloco-search-hidden"></div>
+
+		<div class="logotipo">
+			<a href="index.html"><img class="logo" src="img/logotipo.png" alt="Logotipo da página"> </a>
+		</div>
+	
+		<div class="header-search" onmouseleave="boxOut();" onmouseover="boxIn();">
+			
+			<div class="main-search" >
+				<div class="search-box">
+					<input  type="text" id="autor" class="search-text" placeholder="Pesquisar...">
+					<div class="search-btn">
+						<ion-icon class="lupa" name="search"></ion-icon>
+					</div>
+				</div>
+				<div id="lista"></div>
+			</div>
+
+		</div>	
+
+	</header> 
+
+		
+	<nav class="header-box2"> 
+
+		<ul class="main-menu">
+
+			<li class="item-menu first"> <a  href="index.html"> INÍCIO  </a> </li>
+
+			<li class="item-menu">
+				<span > AUTORES </span>
+				
+				<div class="espaco"> </div>
+
+				<ul class="sub-menu">
+					<li><a href="adeliaPage.html"> Adélia Prado </a></li>
+					<li><a href="carlosPage.html"> Carlos Drummond de Andrade </a></li>
+					<li><a href="ceciliaPage.html"> Cecília Meireles</a></li>
+					<li><a href="coraPage.html"> Cora Coralina </a></li>
+					<li><a href="hildaPage.html"> Hilda Hilst </a></li>
+					<li><a href="joaoPage.html"> João Cabral de Melo Neto </a></li>
+					<li><a href="machadoPage.html"> Machado de Assis </a></li>
+					<li><a href="manoelPage.html"> Manoel de Barros </a></li>
+					<li><a href="manuelPage.html"> Manuel Bandeira </a></li>
+					<li><a href="viniciusPage.html"> Vinicius de Moraes </a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+	
+
+    <main class="main-body">
+
+        <div class="box1">
+
+            <article class="texto-box">
+
+                    <div class="container-mobile">
+
+                        <h1 >Machado de Assis</h1>
+
+                        <div class="hidden-image-mobile">
+                            <img src="img/machadoFoto.webp" alt="Foto do poeta Machado de Assis"> <!--foto-->
+                            <p>Machado de Assis. Foto: autor desconhecido.</p>
+                        </div>
+
+                    </div>
+
+                    <section class="biografia">
+                        <h2>Bibiografia</h2>
+                        <p>
+                             Machado de Assis (Joaquim Maria Machado de Assis), jornalista, contista, cronista, romancista, poeta e teatrólogo,nasceu no Rio de Janeiro, RJ, em 21 de junho de 1839, e faleceu também no Rio de Janeiro, em 29 de setembro de 1908.
+                            <br>
+                            É o fundador da cadeira nº. 23 da Academia Brasileira de Letras.
+                        </p>
+                    </section>
+                    
+                    <section class="principais-obras">
+                        <h2>Principais obras</h2>
+                            <ul class='lista1'>
+                                <li><a href="#poema61">A Caridade </a></li>
+                                <li><a href="#poema62">A uma senhora que me pediu versos </a></li>
+                                <li><a href="#poema63">Carolina </a></li>
+                                <li><a href="#poema64">Círculo vicioso </a></li>
+                                <li><a href="#poema65">Lindoia </a></li>
+                            </ul>
+                            <ul class="lista2"> 
+                                <li><a href="#poema66">Livros e flores </a></li>
+                                <li><a href="#poema67">No alto </a></li>
+                                <li><a href="#poema68">O VERME </a></li>
+                                <li><a href="#poema69">Relíquia íntima </a></li>
+                                <li><a href="#poema70">Soneto de natal </a></li>
+                            </ul>           
+                    </section>
+            </article>
+
+            <div class="imagem-box">
+                    <img src="img/machadoFoto.webp" alt="Foto do poeta Machado de Assis">
+                    <p>Machado de Assis. Foto: autor desconhecido.</p>
+            </div>
+
+         </div>
+
+
+         <div class="linhas space">
+            <div class="linha2"></div>
+         </div>
+
+        <div class="box2">
+            
+            <section class="poemas">
+                
+                <h2>Poemas</h2>
+
+                <article class="poema" id="poema61">
+                    <h3>A Caridade</h3>
+                    <p>
+                        Ela tinha no rosto uma expressão tão calma<br>
+                        Como o sono inocente e primeiro de uma alma<br>
+                        Donde não se afastou ainda o olhar de Deus;<br>
+                        Uma serena graça, uma graça dos céus* *,<br>
+                        Era-lhe o casto, o brando, o delicado andar,<br>
+                        E nas asas da brisa iam-lhe a ondear<br>
+                        Sobre o gracioso colo as delicadas tranças.<br>
+                        <br>
+                        Levava pela mão duas gentis crianças.<br>
+                        Ia caminho. A um lado ouve magoado pranto.<br>
+                        Parou. E na ansiedade ainda o mesmo encanto<br>
+                        Descia-lhe às feições. Procurou. Na calçada<br>
+                        À chuva, ao ar, ao sol, despida, abandonada<br>
+                        A infância lacrimosa, a infância desvalida,<br>
+                        Pedia leito e pão, amparo, amor, guarida.<br>
+                        <br>
+                        E tu, ó Caridade, ó virgem do Senhor,<br>
+                        No amoroso seio as crianças tomaste,<br>
+                        E entre beijos – só teus — o pranto lhes secaste<br>
+                        Dando-lhes leito e pão, guarida e amor.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema62">
+                    <h3>A uma senhora que me pediu versos</h3>
+                    <p>
+                        Pensa em ti mesma, acharás<br>
+                        Melhor poesia,<br>
+                        Viveza, graça, alegria,<br>
+                        Doçura e paz.<br>
+                        <br>
+                        Se já dei flores um dia,<br>
+                        Quando rapaz,<br>
+                        As que ora dou têm assaz<br>
+                        Melancolia.<br>
+                        <br>
+                        Uma só das horas tuas<br>
+                        Valem um mês <br>
+                        Das almas já ressequidas.<br>
+                        <br>
+                        Os sóis e as luas<br>
+                        Creio bem que Deus os fez<br>
+                        Para outras vidas.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema63">
+                    <h3>Carolina</h3>
+                    <p>
+                        Querida, ao pé do leito derradeiro<br>
+                        Em que descansas dessa longa vida,<br>
+                        Aqui venho e virei, pobre querida,<br>
+                        Trazer-te o coração do companheiro.<br>
+                        <br>
+                        Pulsa-lhe aquele afeto verdadeiro<br>
+                        Que, a despeito de toda a humana lida,<br>
+                        Fez a nossa existência apetecida<br>
+                        E num recanto pôs o mundo inteiro.<br>
+                        <br>
+                        Trago-te flores - restos arrancados<br>
+                        Da terra que nos viu passar unidos<br>
+                        E ora mortos nos deixa e separados.<br>
+                        <br>
+                        Que eu, se tenho nos olhos malferidos<br>
+                        Pensamentos de vida formulados,<br>
+                        São pensamentos idos e vividos.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema64">
+                    <h3>Círculo vicioso</h3>
+                    <p>
+                        Bailando no ar, gemia inquieto vagalume:<br>
+                        "Quem me dera que eu fosse aquela loira estrela<br>
+                        Que arde no eterno azul, como uma eterna vela!"<br>
+                        Mas a estrela, fitando a lua, com ciúme:<br>
+                        <br>
+                        "Pudesse eu copiar-te o transparente lume,<br>
+                        Que, da grega coluna à gótica janela,<br>
+                        Contemplou, suspirosa, a fronte amada e bela"<br>
+                        Mas a lua, fitando o sol com azedume:<br>
+                        <br>
+                        "Mísera! Tivesse eu aquela enorme, aquela<br>
+                        Claridade imortal, que toda a luz resume"!<br>
+                        Mas o sol, inclinando a rútila capela:<br>
+                        <br>
+                        Pesa-me esta brilhante auréola de nume...<br>
+                        Enfara-me esta luz e desmedida umbela...<br>
+                        Por que não nasci eu um simples vagalume?"...
+                    </p>
+                </article>
+
+                <article class="poema" id="poema65">
+                    <h3>Lindoia</h3>
+                    <p>
+                        Vem, vem das águas, mísera Moema,<br>
+                        Senta-te aqui. As vozes lastimosas<br>
+                        Troca pelas cantigas deleitosas,<br>
+                        Ao pé da doce e pálida Coema.<br>
+                        Vós, sombras de Iguaçu e de Iracema,<br>
+                        Trazei nas mãos, trazei no colo as rosas<br>
+                        Que amor desabrochou e fez viçosas<br>
+                        Nas laudas de um poema e outro poema.<br>
+                        Chegai, folgai, cantai. É esta, é esta<br>
+                        De Lindoia, que a voz suave e forte<br>
+                        Do vate celebrou, a alegre festa.<br>
+                        Além do amável, gracioso porte,<br>
+                        Vede o mimo, a ternura que lhe resta.<br>
+                        “Tanto inda é bela no seu rosto a morte!”
+                    </p>
+                </article>
+
+                <article class="poema" id="poema66">
+                    <h3>Livros e flores</h3>
+                    <p>
+                        Teus olhos são meus livros.<br>
+                        Que livro há aí melhor,<br>
+                        Em que melhor se leia<br>
+                        A página do amor?<br>
+                        <br>
+                        Flores me são teus lábios.<br>
+                        Onde há mais bela flor, <br>
+                        Em que melhor se beba<br>
+                        O bálsamo do amor?
+                    </p>
+                </article>
+
+                <article class="poema" id="poema67">
+                    <h3>No alto</h3>
+                    <p>
+                        O poeta chegara ao alto da montanha,<br>
+                        E quando ia a descer a vertente do oeste,<br>
+                        Viu uma cousa estranha,<br>
+                        Uma figura má.<br>
+                        <br>
+                        Então, volvendo o olhar ao subtil, ao celeste,<br>
+                        Ao gracioso Ariel, que de baixo o acompanha,<br>
+                        Num tom medroso e agreste<br>
+                        Pergunta o que será.<br>
+                        <br>
+                        Como se perde no ar um som festivo e doce,<br>
+                        Ou bem como se fosse<br>
+                        Um pensamento vão,<br>
+                        <br>
+                        Ariel se desfez sem lhe dar mais resposta.<br>
+                        Para descer a encosta <br>
+                        O outro lhe deu a mão.<br>
+                    </p>
+                </article>
+
+                <article class="poema" id="poema68">
+                    <h3>O VERME</h3>
+                    <p>
+                        Existe uma flor que encerra<br>
+                        Celeste orvalho e perfume.<br>
+                        Plantou-a em fecunda terra<br>
+                        Mão benéfica de um nume.<br>
+                        Um verme asqueroso e feio,<br>
+                        Gerado em lodo mortal,<br>
+                        Busca esta flor virginal<br>
+                        E vai dormir-lhe no seio.<br>
+                        Morde, sangra, rasga e mina,<br>
+                        Suga-lhe a vida e o alento;<br>
+                        A flor o cálix inclina;<br>
+                        As folhas, leva-as o vento.<br>
+                        Depois, nem resta o perfume<br>
+                        Nos ares da solidão…<br>
+                        Esta flor é o coração,<br>
+                        Aquele verme o ciúme.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema69">
+                    <h3>Relíquia íntima</h3>
+                    <p>
+                        Ilustríssimo, caro e velho amigo,<br>
+                        Saberás que, por um motivo urgente,<br>
+                        Na quinta-feira, nove do corrente,<br>
+                        Preciso muito de falar contigo.<br>
+                        <br>
+                        E aproveitando o portador te digo,<br>
+                        Que nessa ocasião terás presente,<br>
+                        A esperada gravura de patente<br>
+                        Em que o Dante regressa do Inimigo.<br>
+                        <br>
+                        Manda-me pois dizer pelo bombeiro<br>
+                        Se às três e meia te acharás postado<br>
+                        Junto à porta do Garnier livreiro:<br>
+                        <br>
+                        Senão, escolhe outro lugar azado;<br>
+                        Mas dá logo a resposta ao mensageiro,<br>
+                        E continua a crer no teu Machado.
+                        
+                    </p>
+                </article>
+
+                <article class="poema" id="poema70">
+                    <h3>Soneto de natal </h3>
+                    <p>
+                        Um homem, — era aquela noite amiga,<br>
+                        Noite cristã, berço do Nazareno, —<br>
+                        Ao relembrar os dias de pequeno,<br>
+                        E a viva dança, e a lépida cantiga,<br>
+                        <br>
+                        Quis transportar ao verso doce e ameno<br>
+                        As sensações da sua idade antiga,<br>
+                        Naquela mesma velha noite amiga,<br>
+                        Noite cristã, berço do Nazareno.<br>
+                        <br>
+                        Escolheu o soneto . . . A folha branca<br>
+                        Pede-lhe a inspiração; mas, frouxa e manca,<br>
+                        A pena não acode ao gesto seu.<br>
+                        <br>
+                        E, em vão lutando contra o metro adverso,<br>
+                        Só lhe saiu este pequeno verso<br>
+                        “Mudaria o Natal ou mudei eu?”
+                    </p>
+                </article>
+
+            </section>
+
+        </div>
+
+        <div class="voltar-ao-topo">
+            <img src="img/btnSubir.png" alt="Botão de voltar ao topo da página">
+        </div>
+
+    </main>
+
+	<footer>
+        <div class="main_footer">
+            <p class="m-b-footer"> Poemas Brasileiros - 2022</p> 
+            <p> Desenvolvido por:  Gabrielli Danker e Monique Ellen dos Santos</p>
+        </div>
+	</footer>
+
+    <script src="js/page.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+</html>

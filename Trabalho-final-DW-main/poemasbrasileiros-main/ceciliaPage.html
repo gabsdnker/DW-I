@@ -1,0 +1,587 @@
+<!DOCTYPE html>                 
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cecília Meireles</title>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/autoresPages.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="webmanifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <script src="js/jquery-3.6.1.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+    <style>
+        .imagem-box, .hidden-image-mobile{
+            max-height: 470px;
+        }
+    </style>
+</head>
+<body>
+	<header class="header-main">
+
+		<div class="bloco-search-hidden"></div>
+
+		<div class="logotipo">
+			<a href="index.html"><img class="logo" src="img/logotipo.png" alt="Logotipo da página"> </a>
+		</div>
+	
+		<div class="header-search" onmouseleave="boxOut();" onmouseover="boxIn();">
+			
+			<div class="main-search" >
+				<div class="search-box">
+					<input  type="text" id="autor" class="search-text" placeholder="Pesquisar...">
+					<div class="search-btn">
+						<ion-icon class="lupa" name="search"></ion-icon>
+					</div>
+				</div>
+				<div id="lista"></div>
+			</div>
+
+		</div>	
+
+	</header> 
+
+		
+	<nav class="header-box2"> 
+
+		<ul class="main-menu">
+
+			<li class="item-menu first"> <a  href="index.html"> INÍCIO  </a> </li>
+
+			<li class="item-menu">
+				<span > AUTORES </span>
+				
+				<div class="espaco"> </div>
+
+				<ul class="sub-menu">
+					<li><a href="adeliaPage.html"> Adélia Prado </a></li>
+					<li><a href="carlosPage.html"> Carlos Drummond de Andrade </a></li>
+					<li><a href="ceciliaPage.html"> Cecília Meireles</a></li>
+					<li><a href="coraPage.html"> Cora Coralina </a></li>
+					<li><a href="hildaPage.html"> Hilda Hilst </a></li>
+					<li><a href="joaoPage.html"> João Cabral de Melo Neto </a></li>
+					<li><a href="machadoPage.html"> Machado de Assis </a></li>
+					<li><a href="manoelPage.html"> Manoel de Barros </a></li>
+					<li><a href="manuelPage.html"> Manuel Bandeira </a></li>
+					<li><a href="viniciusPage.html"> Vinicius de Moraes </a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+	
+
+    <main class="main-body">
+
+        <div class="box1">
+
+            <article class="texto-box">
+
+                    <div class="container-mobile">
+
+                        <h1 >Cecília Meireles</h1>
+
+                        <div class="hidden-image-mobile">
+                            <img src="img/ceciliaFoto.webp" alt="Foto da poetisa Cecícilia Meireles">
+                            <p>Cecília Meireles. Foto: autor desconhecido.</p>
+                        </div>
+
+                    </div>
+
+                    <section class="biografia">
+                        <h2>Bibiografia</h2>
+                        <p>Cecília Meireles, poetisa brasileira,
+                            nasceu em 7 de novembro de 1901, na cidade do Rio de Janeiro. Órfã de pai e mãe, foi criada pela avó materna.
+                            <br>
+                            Poetista da segunda geração do modernismo brasileiro, 
+                            sua obra mais conhecida é Romanceiro da Inconfidência.
+                        </p>
+                    </section>
+                    
+                    <section class="principais-obras">
+                        <h2>Principais obras</h2>
+                        
+                        <ul class='lista1'>
+                            <li><a href="#poema21">Motivo</a></li>
+                            <li><a href="#poema22">Retrato</a></li>
+                            <li><a href="#poema23">Lua adversa</a></li>
+                            <li><a href="#poema24">Nadador</a></li>
+                            <li><a href="#poema25">Recado aos amigos distantes</a></li>
+                        </ul>
+                        <ul class="lista2"> 
+                            <li><a href="#poema26">Segundo motivo da rosa</a></li>
+                            <li><a href="#poema27"> Canção</a></li>
+                            <li><a href="#poema28">Ou isto ou aquilo</a></li>
+                            <li><a href="#poema29">Despedida</a></li>
+                            <li><a href="#poema30">Encomenda</a></li>
+                        </ul>
+                    </section>
+            </article>
+
+            <div class="imagem-box">
+                    <img src="img/ceciliaFoto.webp" alt="Foto da poetisa Cecícilia Meireles">
+                    <p>Cecília Meireles. Foto: autor desconhecido.</p>
+            </div>
+
+         </div>
+
+
+         <div class="linhas space">
+            <div class="linha2"></div>
+         </div>
+
+        <div class="box2">
+            
+            <section class="poemas">
+                
+                <h2>Poemas</h2>
+
+                <article class="poema" id="poema21">
+                    <h3>Motivo</h3>
+                    <p>
+                        Eu canto porque o instante existe
+                        <br>
+                        e a minha vida está completa.
+                        <br>
+                        Não sou alegre nem sou triste:
+                        <br>
+                        sou poeta.
+                        <br><br>
+
+                        Irmão das coisas fugidias,
+                        <br>
+                        não sinto gozo nem tormento.
+                        <br>
+                        Atravesso noites e dias
+                        <br>
+                        no vento.
+                        <br><br>
+
+                        Se desmorono ou se edifico,
+                        <br>
+                        se permaneço ou me desfaço,
+                        <br>
+                        — não sei, não sei. Não sei se fico
+                        <br>
+                        ou passo.
+                        <br><br>
+
+                        Sei que canto. E a canção é tudo.
+                        <br>
+                        Tem sangue eterno a asa ritmada.
+                        <br>
+                        E um dia sei que estarei mudo:
+                        <br>
+                        — mais nada.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema22">
+                    <h3>Retrato</h3>
+                    <p>
+                        Eu não tinha este rosto de hoje,
+                        <br>
+                        Assim calmo, assim triste, assim magro,
+                        <br>
+                        Nem estes olhos tão vazios,
+                        <br>
+                        Nem o lábio amargo.
+                        <br><br>
+
+                        Eu não tinha estas mãos sem força,
+                        <br>
+                        Tão paradas e frias e mortas;
+                        <br>
+                        Eu não tinha este coração
+                        <br>
+                        Que nem se mostra.
+                        <br><br>
+
+                        Eu não dei por esta mudança,
+                        <br>
+                        Tão simples, tão certa, tão fácil:
+                        <br>
+                        — Em que espelho ficou perdida
+                        <br>
+                        a minha face?
+                    </p>
+                </article>
+
+                <article class="poema" id="poema23">
+                    <h3>Lua adversa</h3>
+                    <p>
+                        Tenho fases, como a lua
+                        <br>
+                        Fases de andar escondida,
+                        <br>
+                        fases de vir para a rua…
+                        <br>
+                        Perdição da minha vida!
+                        <br>
+                        Perdição da vida minha!
+                        <br>
+                        Tenho fases de ser tua,
+                        <br>
+                        tenho outras de ser sozinha.
+                        <br><br>
+
+                        Fases que vão e que vêm,
+                        <br>
+                        no secreto calendário
+                        <br>
+                        que um astrólogo arbitrário
+                        <br>
+                        inventou para meu uso.
+                        <br><br>
+
+                        E roda a melancolia
+                        <br>
+                        seu interminável fuso!
+                        <br>
+                        Não me encontro com ninguém
+                        <br>
+                        (tenho fases, como a lua…)
+                        <br>
+                        No dia de alguém ser meu
+                        <br>
+                        não é dia de eu ser sua…
+                        <br>
+                        E, quando chega esse dia,
+                        <br>
+                        o outro desapareceu…
+                    </p>
+                </article>
+                <article class="poema" id="poema24">
+                    <h3>Nadador</h3>
+                    <p>
+                        O que me encanta é a linha alada
+                        <br>
+                        das tuas espáduas, e a curva
+                        <br>
+                        que descreves, pássaro da água!
+                        <br><br>
+
+                        É a tua fina, ágil cintura,
+                        <br>
+                        e esse adeus da tua garganta
+                        <br>
+                        para cemitérios de espuma!
+                        <br><br>
+
+                        É a despedida, que me encanta,
+                        <br>
+                        quando te desprendes ao vento,
+                        <br>
+                        fiel à queda, rápida e branda
+                        <br><br>
+
+                        E apenas por estar prevendo,
+                        <br>
+                        longe, na eternidade da água,
+                        <br>
+                        sobreviver teu movimento…
+                    </p>
+                </article>
+                <article class="poema" id="poema25">
+                    <h3>Recado aos amigos distante</h3>
+                    <p>
+                        Meus companheiros amados,
+                        <br>
+                        não vos espero nem chamo:
+                        <br>
+                        porque vou para outros lados.
+                        <br>
+                        Mas é certo que vos amo.
+                        <br><br>
+
+                        Nem sempre os que estão mais perto
+                        <br>
+                        fazem melhor companhia.
+                        <br>
+                        Mesmo com sol encoberto,
+                        <br>
+                        todos sabem quando é dia.
+                        <br><br>
+
+                        Pelo vosso campo imenso,
+                        <br>
+                        vou cortando meus atalhos.
+                        <br>
+                        Por vosso amor é que penso
+                        <br>
+                        e me dou tantos trabalhos.
+                        <br><br>
+
+                        Não condeneis, por enquanto,
+                        <br>
+                        minha rebelde maneira.
+                        <br>
+                        Para libertar-me tanto,
+                        <br>
+                        fico vossa prisioneira.
+                        <br><br>
+
+                        Por mais que longe pareça,
+                        <br>
+                        ides na minha lembrança,
+                        <br>
+                        ides na minha cabeça,
+                        <br>
+                        valeis a minha Esperança.
+                    </p>
+                </article>
+                <article class="poema" id="poema26">
+                    <h3>Segundo motivo da rosa</h3>
+                    <p>
+                        Por mais que te celebre, não me escutas,
+                        <br>
+                        embora em forma e nácar te assemelhes
+                        <br>
+                        à concha soante, à musical orelha
+                        <br>
+                        que grava o mar nas íntimas volutas.
+                        <br><br>
+
+                        Deponho-te em cristal, defronte a espelhos,
+                        <br>
+                        sem eco de cisternas ou de grutas…
+                        <br>
+                        Ausências e cegueiras absolutas
+                        <br>
+                        ofereces às vespas e às abelhas.
+                        <br><br>
+
+                        E a quem te adora, ó surda e silenciosa,
+                        <br>
+                        e cega e bela e interminável rosa,
+                        <br>
+                        que em tempo e aroma e verso te transmutas!
+                        <br><br>
+
+                        Sem terra nem estrelas brilhas, presa
+                        <br>
+                        a meu sonho, insensível à beleza
+                        <br>
+                        que és e não sabes, porque não me escutas…
+                    </p>
+                </article>
+
+                <article class="poema" id="poema27">
+                    <h3>Canção</h3>
+                    <p>
+                        No desequilíbrio dos mares,
+                        <br>
+                        as proas giram sozinhas…
+                        <br>
+                        Numa das naves que afundaram
+                        <br>
+                        é que certamente tu vinhas.
+                        <br><br>
+
+                        Eu te esperei todos os séculos
+                        <br>
+                        sem desespero e sem desgosto,
+                        <br>
+                        e morri de infinitas mortes
+                        <br>
+                        guardando sempre o mesmo rosto
+                        <br><br>
+
+                        Quando as ondas te carregaram
+                        <br>
+                        meu olhos, entre águas e areias,
+                        <br>
+                        cegaram como os das estátuas,
+                        <br>
+                        a tudo quanto existe alheias.
+                        <br><br>
+
+                        Minhas mãos pararam sobre o ar
+                        <br>
+                        e endureceram junto ao vento,
+                        <br>
+                        e perderam a cor que tinham
+                        <br>
+                        e a lembrança do movimento.
+                        <br><br>
+
+                        E o sorriso que eu te levava
+                        <br>
+                        desprendeu-se e caiu de mim:
+                        <br>
+                        e só talvez ele ainda viva
+                        <br>
+                        dentro destas águas sem fim.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema28">
+                    <h3>Ou isto ou aquilo</h3>
+                    <p>
+                        Ou se tem chuva e não se tem sol,
+                        <br>
+                        ou se tem sol e não se tem chuva!
+                        <br><br>
+
+                        Ou se calça a luva e não se põe o anel,
+                        <br>
+                        ou se põe o anel e não se calça a luva!
+                        <br><br>
+
+                        Quem sobe nos ares não fica no chão,
+                        <br>
+                        quem fica no chão não sobe nos ares.
+                        <br><br>
+
+                        É uma grande pena que não se possa
+                        <br>
+                        estar ao mesmo tempo nos dois lugares!
+                        <br><br>
+
+                        Ou guardo o dinheiro e não compro o doce,
+                        <br>
+                        ou compro o doce e gasto o dinheiro.
+                        <br><br>
+
+                        Ou isto ou aquilo: ou isto ou aquilo…
+                        <br>
+                        e vivo escolhendo o dia inteiro!
+                        <br><br>
+
+                        Não sei se brinco, não sei se estudo,
+                        <br>
+                        se saio correndo ou fico tranquilo.
+                        <br><br>
+
+                        Mas não consegui entender ainda
+                        <br>
+                        qual é melhor: se é isto ou aquilo.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema29">
+                    <h3>Despedida</h3>
+                    <p>
+                        Por mim, e por vós, e por mais aquilo
+                        <br>
+                        que está onde as outras coisas nunca estão,
+                        <br>
+                        deixo o mar bravo e o céu tranquilo:
+                        <br>
+                        quero solidão.
+                        <br><br>
+
+                        Meu caminho é sem marcos nem paisagens.
+                        <br>
+                        E como o conheces? - me perguntarão.
+                        <br>
+                        - Por não ter palavras, por não ter imagens.
+                        <br>
+                        Nenhum inimigo e nenhum irmão.
+                        <br><br>
+
+                        Que procuras? - Tudo. Que desejas? - Nada.
+                        <br>
+                        Viajo sozinha com o meu coração.
+                        <br>
+                        Não ando perdida, mas desencontrada.
+                        <br>
+                        Levo o meu rumo na minha mão.
+                        <br><br>
+
+                        A memória voou da minha fronte.
+                        <br>
+                        Voou meu amor, minha imaginação...
+                        <br>
+                        Talvez eu morra antes do horizonte.
+                        <br>
+                        Memória, amor e o resto onde estarão?
+                        <br><br>
+
+                        Deixo aqui meu corpo, entre o sol e a terra.
+                        <br>
+                        (Beijo-te, corpo meu, todo desilusão!
+                        <br>
+                        Estandarte triste de uma estranha guerra...)
+                        <br><br>
+
+                        Quero solidão.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema30">
+                    <h3>Encomenda</h3>
+                    <p>
+                        Desejo uma fotografia
+                        <br>
+                        como esta — o senhor vê? — como esta:
+                        <br>
+                        em que para sempre me ria
+                        <br>
+                        como um vestido de eterna festa.
+                        <br><br>
+
+                        Como tenho a testa sombria,
+                        <br>
+                        derrame luz na minha testa.
+                        <br>
+                        Deixe esta ruga, que me empresta
+                        <br>
+                        um certo ar de sabedoria.
+                        <br><br>
+
+                        Não meta fundos de floresta
+                        <br>
+                        nem de arbitrária fantasia...
+                        <br>
+                        Não... Neste espaço que ainda resta,
+                        <br>
+                        ponha uma cadeira vazia.
+                    </p>
+                </article>
+
+            </section>
+
+        </div>
+
+        <div class="voltar-ao-topo">
+            <img src="img/btnSubir.png" alt="Botão de voltar ao topo da página">
+        </div>
+
+    </main>
+
+	<footer>
+        <div class="main_footer">
+            <p class="m-b-footer"> Poemas Brasileiros - 2022</p> 
+            <p> Desenvolvido por:  Gabrielli Danker e Monique Ellen dos Santos</p>
+        </div>
+	</footer>
+
+    <script src="js/page.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

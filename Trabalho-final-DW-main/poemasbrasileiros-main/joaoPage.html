@@ -1,0 +1,562 @@
+<!DOCTYPE html>                 
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>João Cabral de Melo Neto</title>
+
+	<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/autoresPages.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="webmanifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <script src="js/jquery-3.6.1.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+    <style>
+       .hidden-image-box , .imagem-box{
+            max-height: 450px;
+       }
+
+    </style>
+</head>
+<body>
+	<header class="header-main">
+
+		<div class="bloco-search-hidden"></div>
+
+		<div class="logotipo">
+			<a href="index.html"><img class="logo" src="img/logotipo.png" alt="Logotipo da página"> </a>
+		</div>
+	
+		<div class="header-search" onmouseleave="boxOut();" onmouseover="boxIn();">
+			
+			<div class="main-search" >
+				<div class="search-box">
+					<input  type="text" id="autor" class="search-text" placeholder="Pesquisar...">
+					<div class="search-btn">
+						<ion-icon class="lupa" name="search"></ion-icon>
+					</div>
+				</div>
+				<div id="lista"></div>
+			</div>
+
+		</div>	
+
+	</header> 
+
+		
+	<nav class="header-box2"> 
+
+		<ul class="main-menu">
+
+			<li class="item-menu first"> <a  href="index.html"> INÍCIO  </a> </li>
+
+			<li class="item-menu">
+				<span > AUTORES </span>
+				
+				<div class="espaco"> </div>
+
+				<ul class="sub-menu">
+					<li><a href="adeliaPage.html"> Adélia Prado </a></li>
+					<li><a href="carlosPage.html"> Carlos Drummond de Andrade </a></li>
+					<li><a href="ceciliaPage.html"> Cecília Meireles</a></li>
+					<li><a href="coraPage.html"> Cora Coralina </a></li>
+					<li><a href="hildaPage.html"> Hilda Hilst </a></li>
+					<li><a href="joaoPage.html"> João Cabral de Melo Neto </a></li>
+					<li><a href="machadoPage.html"> Machado de Assis </a></li>
+					<li><a href="manoelPage.html"> Manoel de Barros </a></li>
+					<li><a href="manuelPage.html"> Manuel Bandeira </a></li>
+					<li><a href="viniciusPage.html"> Vinicius de Moraes </a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+	
+
+    <main class="main-body">
+
+        <div class="box1">
+
+            <article class="texto-box">
+
+                    <div class="container-mobile">
+
+                        <h1 > João Cabral de Melo Neto</h1>
+
+                        <div class="hidden-image-mobile">
+                            <img src="img/joaoFoto.webp" alt="Foto do poeta João Cabral de Melo Neto">
+                            <p> João Cabral de Melo Neto. Foto: autor desconhecido.</p>
+                        </div>
+
+                    </div>
+
+                    <section class="biografia">
+                        <h2>Bibiografia</h2>
+                        <p>
+                            João Cabral de Melo Neto nasceu na cidade do Recife, a 9 de janeiro de 1920 e faleceu no dia 9 de outubro de 1999, no Rio de Janeiro, aos 79 anos.
+                            <br>
+                            Eleito membro da Academia Brasileira de Letras em 15 de agosto de 1968, tomou posse em 6 de maio de 1969. Foi recebido por José Américo.
+
+                        </p>
+                    </section>
+                    
+                    <section class="principais-obras">
+                        <h2>Principais obras</h2>
+                       
+                            <ul class='lista1'>
+                                <li><a href="#poema51">A educação pela pedra </a></li>
+                                <li><a href="#poema52">Catar feijão </a></li>
+                                <li><a href="#poema53">Fábula de um arquiteto </a></li>
+                                <li><a href="#poema54">Graciliano Ramos </a></li>
+                                <li><a href="#poema55">Morte e vida severina (trecho) </a></li>
+                            </ul>
+                            <ul class="lista2"> 
+                                <li><a href="#poema56">O cão sem plumas (trecho) </a></li>
+                                <li><a href="#poema57">O relógio (trecho) </a></li>
+                                <li><a href="#poema58">Os três mal-amados </a></li>
+                                <li><a href="#poema59">Psicologia da composição (trecho) </a></li>
+                                <li><a href="#poema60">Tecendo a manhã </a></li>
+                            </ul>
+                            
+                        
+                    </section>
+            </article>
+
+            <div class="imagem-box">
+                    <img src="img/joaoFoto.webp" alt="Foto do poeta João Cabral de Melo Neto">
+                    <p>João Cabral de Melo Neto. Foto: autor desconhecido.</p>
+            </div>
+
+        </div>
+
+
+            <div class="linhas space">
+                <div class="linha2"></div>
+            </div>
+
+        <div class="box2">
+            
+            <section class="poemas">
+                
+                <h2>Poemas</h2>
+
+                <article class="poema" id="poema51">
+                    <h3>A educação pela pedra</h3>
+                    <p>
+                        Uma educação pela pedra: por lições;<br>
+                        Para aprender da pedra, frequentá-la;<br>
+                        Captar sua voz inenfática, impessoal<br>
+                        (pela de dicção ela começa as aulas).<br>
+                        A lição de moral, sua resistência fria<br>
+                        Ao que flui e a fluir, a ser maleada;<br>
+                        A de poética, sua carnadura concreta;<br>
+                        A de economia, seu adensar-se compacta:<br>
+                        Lições da pedra (de fora para dentro,<br>
+                        Cartilha muda), para quem soletrá-la.<br><br>
+
+                        Outra educação pela pedra: no Sertão<br>
+                        (de dentro para fora, e pré-didática).<br>
+                        No Sertão a pedra não sabe lecionar,<br>
+                        E se lecionasse, não ensinaria nada;<br>
+                        Lá não se aprende a pedra: lá a pedra,<br>
+                        Uma pedra de nascença, entranha a alma.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema52">
+                    <h3>Catar feijão</h3>
+                    <p>
+                       Catar feijão se limita com escrever: <br>
+                       Jogam-se os grãos na água do alguidar<br>
+                       E as palavras na folha de papel;<br>
+                       e depois, joga-se fora o que boiar.<br>
+                       Certo, toda palavra boiará no papel,<br>
+                       água congelada, por chumbo seu verbo;<br>
+                       pois catar esse feijão, soprar nele,<br>
+                       e jogar fora o leve e oco, palha e eco.<br>
+                       <br>
+                       Ora, nesse catar feijão entra um risco,<br>
+                       o de que, entre os grãos pesados, entre<br>
+                       um grão imastigável, de quebrar dente.<br>
+                       Certo não, quando ao catar palavras:<br>
+                       a pedra dá à frase seu grão mais vivo:<br>
+                       obstrui a leitura fluviante, flutual,<br>
+                       açula a atenção, isca-a com risco.
+                       <br>
+                    </p>
+                </article>
+
+                <article class="poema" id="poema53">
+                    <h3>Fábula de um arquiteto</h3>
+                    <p>
+                        A arquitetura como construir portas,<br>
+                        de abrir; ou como construir o aberto;<br>
+                        construir, não como ilhar e prender,<br>
+                        nem construir como fechar secretos;<br>
+                        construir portas abertas, em portas;<br>
+                        casas exclusivamente portas e tecto.<br>
+                        O arquiteto: o que abre para o homem<br>
+                        (tudo se sanearia desde casas abertas)<br>
+                        portas por-onde, jamais portas-contra;<br>
+                        por onde, livres: ar luz razão certa.<br>
+                        <br>
+                        Até que, tantos livres o amedrontando,<br>
+                        renegou dar a viver no claro e aberto.<br>
+                        Onde vãos de abrir, ele foi amurando<br>
+                        opacos de fechar; onde vidro, concreto;<br>
+                        até fechar o homem: na capela útero,<br>
+                        com confortos de matriz, outra vez feto.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema54">
+                    <h3>Graciliano Ramos</h3>
+                    <p>
+                        Falo somente com o que falo:<br>
+                        com as mesmas vinte palavras<br>
+                        girando ao redor do sol<br>
+                        que as limpa do que não é faca:<br>
+                        de toda uma crosta viscosa,<br>
+                        resto de janta abaianada,<br>
+                        que fica na lâmina e cega<br>
+                        seu gosto da cicatriz clara.<br>
+                        Falo somente do que falo:<br>
+                        do seco e de suas paisagens,<br>
+                        Nordestes, debaixo de um sol<br>
+                        ali do mais quente vinagre:<br>
+                        que reduz tudo ao espinhaço,<br>
+                        cresta o simplesmente folhagem,<br>
+                        folha prolixa, folharada,<br>
+                        onde possa esconder-se na fraude.<br>
+                        Falo somente por quem falo:<br>
+                        por quem existe nesses climas<br>
+                        condicionados pelo sol,<br>
+                        pelo gavião e outras rapinas:<br>
+                        e onde estão os solos inertes<br>
+                        de tantas condições caatinga<br>
+                        em que só cabe cultivar<br>
+                        o que é sinônimo da míngua.<br>
+                        Falo somente para quem falo:<br>
+                        quem padece sono de morto<br>
+                        e precisa um despertador<br>
+                        acre, como o sol sobre o olho:<br>
+                        que é quando o sol é estridente,<br>
+                        a contrapelo, imperioso,<br>
+                        e bate nas pálpebras como<br>
+                        se bate numa porta a socos.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema55">
+                    <h3>Morte e vida severina (trecho)</h3>
+                    <p>
+                        — O meu nome é Severino,<br>
+                        como não tenho outro de pia.<br>
+                        Como há muitos Severinos,<br>
+                        que é santo de romaria,<br>
+                        deram então de me chamar<br>
+                        Severino de Maria;<br>
+                        como há muitos Severinos<br>
+                        com mães chamadas Maria,<br>
+                        fiquei sendo o da Maria<br>
+                        do finado Zacarias.<br>
+                        Mas isso ainda diz pouco:<br>
+                        há muitos na freguesia,<br>
+                        por causa de um coronel<br>
+                        que se chamou Zacarias<br>
+                        e que foi o mais antigo<br>
+                        senhor desta sesmaria.<br>
+                        Como então dizer quem fala<br>
+                        ora a Vossas Senhorias?<br>
+                        Vejamos: é o Severino<br>
+                        da Maria do Zacarias,<br>
+                        lá da serra da Costela,<br>
+                        limites da Paraíba.<br>
+                        <br>
+                        Mas isso ainda diz pouco:<br>
+                        se ao menos mais cinco havia<br>
+                        com nome de Severino<br>
+                        filhos de tantas Marias<br>
+                        mulheres de outros tantos,<br>
+                        já finados, Zacarias,<br>
+                        vivendo na mesma serra<br>
+                        magra e ossuda em que eu vivia.<br>
+                        Somos muitos Severinos<br>
+                        iguais em tudo na vida:<br>
+                        na mesma cabeça grande<br>
+                        que a custo é que se equilibra,<br>
+                        no mesmo ventre crescido<br>
+                        sobre as mesmas pernas finas,<br>
+                        e iguais também porque o sangue<br>
+                        que usamos tem pouca tinta.<br>
+                        E se somos Severinos<br>
+                        iguais em tudo na vida,<br>
+                        morremos de morte igual,<br>
+                        mesma morte severina:<br>
+                        que é a morte de que se morre<br>
+                        de velhice antes dos trinta,<br>
+                        de emboscada antes dos vinte,<br>
+                        de fome um pouco por dia<br>
+                        (de fraqueza e de doença<br>
+                        é que a morte Severina<br>
+                        ataca em qualquer idade,<br>
+                        e até gente não nascida).<br>
+                        Somos muitos Severinos<br>
+                        iguais em tudo e na sina:<br>
+                        a de abrandar estas pedras<br>
+                        suando-se muito em cima,<br>
+                        a de tentar despertar<br>
+                        terra sempre mais extinta,<br>
+                        a de querer arrancar<br>
+                        algum roçado da cinza.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema56">
+                    <h3>O cão sem plumas (trecho)</h3>
+                    <p>
+                        A cidade é passada pelo rio<br>
+                        como uma rua<br>
+                        é passada por um cachorro;<br>
+                        uma fruta<br>
+                        por uma espada.<br>
+                        <br>
+                        O rio ora lembrava<br>
+                        a língua mansa de um cão<br>
+                        ora o ventre triste de um cão,<br>
+                        ora o outro rio<br>
+                        de aquoso pano sujo<br>
+                        dos olhos de um cão.<br>
+                        <br>
+                        Aquele rio<br>
+                        era como um cão sem plumas.<br>
+                        Nada sabia da chuva azul,<br>
+                        da fonte cor-de-rosa,<br>
+                        da água do copo de água,<br>
+                        da água de cântaro,<br>
+                        dos peixes de água,<br>
+                        da brisa na água.<br>
+                        <br>
+                        Sabia dos caranguejos<br>
+                        de lodo e ferrugem.<br>
+                        <br>
+                        Sabia da lama<br>
+                        como de uma mucosa.<br>
+                        Devia saber dos povos.<br>
+                        Sabia seguramente<br>
+                        da mulher febril que habita as ostras.<br>
+                        <br>
+                        Aquele rio<br>
+                        jamais se abre aos peixes,<br>
+                        ao brilho,<br>
+                        à inquietação de faca<br>
+                        que há nos peixes.<br>
+                        Jamais se abre em peixes.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema57">
+                    <h3>O relógio (trecho)</h3>
+                    <p>
+                        Ao redor da vida do homem<br>
+                        há certas caixas de vidro,<br>
+                        dentro das quais, como em jaula,<br>
+                        se ouve palpitar um bicho.<br>
+                        <br>
+                        Se são jaulas não é certo;<br>
+                        mais perto estão das gaiolas<br>
+                        ao menos, pelo tamanho<br>
+                        e quadradiço de forma.<br>
+                        <br>
+                        Umas vezes, tais gaiolas<br>
+                        vão penduradas nos muros;<br>
+                        outras vezes, mais privadas,<br>
+                        vão num bolso, num dos pulsos.<br>
+                        <br>
+                        Mas onde esteja: a gaiola<br>
+                        será de pássaro ou pássara:<br>
+                        é alada a palpitação,<br>
+                        a saltação que ela guarda;<br>
+                        <br>
+                        e de pássaro cantor,<br>
+                        não pássaro de plumagem:<br>
+                        pois delas se emite um canto<br>
+                        de uma tal continuidade.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema58">
+                    <h3>Os três mal-amados</h3>
+                    <p>
+                        O amor comeu meu nome, minha identidade,
+                        meu retrato. <br>
+                        O amor comeu minha certidão de idade,<br>
+                        minha genealogia, meu endereço.<br> 
+                        O amor comeu meus cartões de visita. <br>
+                        O amor veio e comeu todos
+                        os papéis onde eu escrevera meu nome.<br>
+                        <br>
+                        O amor comeu minhas roupas, meus lenços, minhas
+                        camisas. <br>
+                        O amor comeu metros e metros de
+                        gravatas. <br>
+                        O amor comeu a medida de meus ternos,<br> o
+                        número de meus sapatos, <br>o tamanho de meus
+                        chapéus. <br>
+                        O amor comeu minha altura, meu peso, a
+                        cor de meus olhos e de meus cabelos.<br>
+                        <br>
+                        O amor comeu meus remédios, minhas receitas<br>
+                        médicas, minhas dietas. <br>Comeu minhas aspirinas,
+                        minhas ondas-curtas, meus raios-X. <br>Comeu meus
+                        testes mentais, meus exames de urina.<br>
+                        <br>
+                        O amor comeu na estante todos os meus livros de
+                        poesia. <br>Comeu em meus livros de prosa as citações
+                        em verso. <br>Comeu no dicionário as palavras que
+                        poderiam se juntar em versos.<br>
+                        <br>
+                        Faminto, o amor devorou os utensílios de meu uso:<br>
+                        pente, navalha, escovas, tesouras de unhas,
+                        canivete. <br>Faminto ainda, o amor devorou o uso de
+                        meus utensílios: <br>meus banhos frios, a ópera cantada
+                        no banheiro, o aquecedor de água de fogo morto<br>
+                        mas que parecia uma usina.<br>
+                        <br>
+                        O amor comeu as frutas postas sobre a mesa.<br> Bebeu
+                        a água dos copos e das quartinhas.<br> Comeu o pão de
+                        propósito escondido. <br>Bebeu as lágrimas dos olhos
+                        que, ninguém o sabia, estavam cheios de água.<br>
+                        <br>
+                        O amor voltou para comer os papéis onde<br>
+                        irrefletidamente eu tornara a escrever meu nome.<br>
+                        <br>
+                        O amor roeu minha infância, de dedos sujos de tinta,<br>
+                        cabelo caindo nos olhos, botinas nunca engraxadas.<br>
+                        O amor roeu o menino esquivo, sempre nos cantos,<br>
+                        e que riscava os livros, mordia o lápis, andava na rua<br>
+                        chutando pedras. <br>
+                        Roeu as conversas, junto à bomba<br>
+                        de gasolina do largo, com os primos que tudo sabiam<br>
+                        sobre passarinhos, sobre uma mulher, sobre marcas<br>
+                        de automóvel.<br>
+                        <br>
+                        O amor comeu meu Estado e minha cidade. <br>Drenou a
+                        água morta dos mangues, aboliu a maré. <br>Comeu os
+                        mangues crespos e de folhas duras, <br>comeu o verde
+                        ácido das plantas de cana cobrindo os morros<br>
+                        regulares, cortados pelas barreiras vermelhas, <br>pelo
+                        trenzinho preto, pelas chaminés.<br> Comeu o cheiro de
+                        cana cortada e o cheiro de maresia. <br>Comeu até essas
+                        coisas de que eu desesperava por não saber falar<br>
+                        delas em verso.<br>
+                        <br>
+                        O amor comeu até os dias ainda não anunciados nas
+                        folhinhas.<br> Comeu os minutos de adiantamento de
+                        meu relógio,<br> os anos que as linhas de minha mão
+                        asseguravam.<br> Comeu o futuro grande atleta,<br> o futuro
+                        grande poeta. <br>Comeu as futuras viagens em volta da<br>
+                        terra, as futuras estantes em volta da sala.<br>
+                        <br>
+                        O amor comeu minha paz e minha guerra. <br>Meu dia e
+                        minha noite. <br>Meu inverno e meu verão. <br>Comeu meu
+                        silêncio, minha dor de cabeça, meu medo da morte.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema59">
+                    <h3>Psicologia da composição (trecho)</h3>
+                    <p>
+                        Saio de meu poema<br>
+                        como quem lava as mãos.<br>
+                        Algumas conchas tornaram-se,<br>
+                        que o sol da atenção<br>
+                        cristalizou; alguma palavra<br>
+                        que desabrochei, como a um pássaro.<br>
+                        Talvez alguma concha<br>
+                        dessas (ou pássaro) lembre,<br>
+                        côncava, o corpo do gesto<br>
+                        extinto que o ar já preencheu;<br>
+                        talvez, como a camisa<br>
+                        vazia, que despi.<br>
+                        Esta folha branca<br>
+                        me proscreve o sonho,<br>
+                        me incita ao verso<br>
+                        nítido e preciso.<br>
+                        Eu me refugio<br>
+                        nesta praia pura<br>
+                        onde nada existe<br>
+                        em que a noite pouse.
+                    </p>
+                </article>
+
+                <article class="poema" id="poema60">
+                    <h3>Tecendo a manhã </h3>
+                    <p>
+                        Um galo sozinho não tece uma manhã:<br>
+                        ele precisará sempre de outros galos.<br>
+                        De um que apanhe esse grito que ele<br>
+                        e o lance a outro; de um outro galo<br>
+                        que apanhe o grito de um galo antes<br>
+                        e o lance a outro; e de outros galos<br>
+                        que com muitos outros galos se cruzem<br>
+                        os fios de sol de seus gritos de galo,<br>
+                        para que a manhã, desde uma teia tênue,<br>
+                        se vá tecendo, entre todos os galos.<br>
+                        <br>
+                        E se encorpando em tela, entre todos,<br>
+                        se erguendo tenda, onde entrem todos,<br>
+                        se entretendendo para todos, no toldo<br>
+                        (a manhã) que plana livre de armação.<br>
+                        A manhã, toldo de um tecido tão aéreo<br>
+                        que, tecido, se eleva por si: luz balão.
+                    </p>
+                </article>
+
+            </section>
+
+            
+        </div>
+
+        <div class="voltar-ao-topo">
+            <img src="img/btnSubir.png" alt="Botão de voltar ao topo da página">
+        </div>
+
+    </main>
+
+
+	<footer>
+        <div class="main_footer">
+            <p class="m-b-footer"> Poemas Brasileiros - 2022</p> 
+            <p> Desenvolvido por:  Gabrielli Danker e Monique Ellen dos Santos</p>
+        </div>
+	</footer>
+
+    <script src="js/page.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+</html>
